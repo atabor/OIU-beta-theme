@@ -12,10 +12,11 @@ normal  - 980
 wide    - 1220 
 
 colors
-light blue  - #DBEAF4
+light blue  - #DBEAF4 - 219, 234, 244
 dark blue   - #24446b
 comment form? #C6D4E3
 grey        - #f2f2f2
+links       - #0062A0 - 0,98,160
 */
 
 /****************************/
@@ -268,27 +269,63 @@ ul.nice-menu-main-menu a {
     font-size: 145%;
 } 
 .region-story-links {
+//    background: #F2F2F2;
+}
+.metadata-pane,.author-pane,.follow-pane {
     background: #F2F2F2;
+    padding: 2px;
 }
 
-/* subscription panes */
-.subscription-pane table {
+/* follow panes */
+
+h3.follow-button {
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    //border:1px solid black;
+    border:1px solid #004e80;
+    display:inline-block;
+    padding:6px 15px;
+    color: #0062A0;
+//    text-decoration:none;
+}
+.follow-question-icon {
+    position: absolute;
+    top: 12px;
+    right: 72px
+}
+.follow-button-wrapper {
+    margin-bottom: 15px;
+//    background-color: #DBEAF4;
+}
+
+.follow-pane h2 {
+    font-size: 100%;
+    font-weight: normal;
+    position: absolute;
+    background-color: #f2f2f2;
+    top: -11px;
+    margin-left: 10px;
+    padding-right: 5px;    
+}
+.follow-pane-list {
+    margin-bottom: 5px;
+}
+.follow-pane table {
     border-width: 2px 0px 0px;
     border-color: gray;
     margin-bottom: 0;
 }
-.subscription-pane tr {
-    border: solid 1px lightgray;
+.follow-pane tr {
+    border-bottom: solid 1px lightgray;
 }
-
-h3.subscriptions-button {
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
-    border-radius:4px;
-    border:1px solid black;
-    display:inline-block;
-    padding:6px 15px;
-//    text-decoration:none;
+.flag-bookmarks .flag {
+    border-radius: 20px;
+    border: solid 1px #004e80;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: -6px;
+    padding-bottom: 2px;
 }
 
 /*.view-story-links {

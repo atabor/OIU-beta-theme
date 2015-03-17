@@ -13,9 +13,9 @@
 
 	// manage subscriptions panel
  
-        $('.bear-story-form').show ();
-        $('.subscriptions-button').click(function () {
-        	$('.subscription-pane').toggle(); 
+//        $('.follow-pane').show ();
+        $('.follow-button').click(function () {
+        	$('.follow-pane').toggle(); 
         });
 
     

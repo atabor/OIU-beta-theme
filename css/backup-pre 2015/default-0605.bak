@@ -1,0 +1,370 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ 
+ /* class set from view */
+ 
+ 
+ /* last mod 2013-0316 li.menu large stuff */
+ 
+/*******************************/
+ /* std classes */
+ /*******************************/
+ .navigation {
+	padding: 22px
+ }
+ 
+ .site-slogan {
+ 	font-size: larger;
+ }
+
+/*  wtf - this impacts all li items in second sidebar and admin toolbar...no idea why
+#main-menu ul,li {
+	font-size: large;
+ 	background: lightblue;
+	border: 2px solid darkgray;
+	margin: 5px;
+	padding: 25px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	,.menu909,.menu910,.menu-852,.menu-15
+}*/
+/* this doesn't work either
+.menu-911 li{
+	font-size: large;
+	color: red;
+}
+*/
+li.menu-911 {
+	font-size: large;
+}
+li.menu-909 {
+	font-size: large;
+}
+li.menu-910 {
+	font-size: large;
+}
+li.menu-852 {
+	font-size: large;
+}
+li.menu-720 {
+	font-size: large;
+}
+li.menu-720,first {
+	font-size: large;
+}
+li.menu-15 {
+	font-size: large;
+}
+li.menu-1018 {
+	font-size: large;
+}
+
+/*******************************/
+/* home page */
+/*******************************/
+
+/* class set from panel page row */
+.featured {
+	border: 1px solid lightgray;
+	padding-left: 5px;
+	margin-bottom: 15px; 
+}
+
+/* class set from panel page row */
+.featured-links {
+	padding-top: 30px;
+}
+
+/*******************************/
+/* things to do */
+/*******************************/ 
+
+/* search form needs some padding to work with this; but inline setting overrides padding so... */
+ .block-things-to-do-block-2 {
+ 	padding-top: 17px;
+ }
+
+ .block-things-to-do-block {
+ 	background: white;
+ 	padding-left: 22px;
+ 	padding-top: 12px;
+ 	border: 2px solid green;
+ 	margin-bottom: 5px; 
+ }
+  .block-things-to-do-last-block {
+ 	background: white;
+ 	padding-left: 22px;
+ 	padding-top: 12px;
+ 	border: 2px solid green;
+ 	margin-bottom: 25px; 
+ }
+
+ 
+/*******************************/
+/* not logged in */
+/*******************************/
+/* stuff that goes with front page? */
+
+/* not sure where this one is set */
+.not-logged-in h2 {
+	font-size: 120%;
+}
+
+.block-menu-simple ul {
+	padding-left: 10px;
+	padding-bottom: 20px;
+	
+}
+.block-menu-simple ul li{
+	font-size: large;
+	display: inline;
+	padding-left: 10px;
+	
+}
+
+/* class hard coded in front page :: no longer used */
+.button {
+	background: lightblue;
+	border: 2px solid darkgray;
+	margin: 25px;
+	padding: 15px;
+	-moz-border-radius: 10px 10px 10px 10px;
+}
+
+/* added in content iframe */
+iframe.float-right {
+	float: right;
+/*	text-align: right;
+	margin: 20px; */
+	padding: 20px;
+}
+.float-left
+{
+	float: left;
+/*	text-align: left;
+	padding-right: 20px;
+	padding-left: 20px; */
+}
+
+/*******************************/
+/* story links */
+/*******************************/
+
+.view-story-links {
+	border-left: 1px solid grey;
+	padding-left: 5px;
+	padding-bottom: 12px;
+	background: white;
+	/* background: url(images/trans-white.png); 
+	background: url(../files/images/trans-white.png);
+ 
+	background: url(trans-white.png);  */
+	}
+
+/*******************************/
+/* story likes */
+/*******************************/
+
+.view-story-likes {
+	border-left: 1px solid grey;
+	padding-left: 5px;
+	border-top: 1px solid grey;
+	padding-top: 8px;
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	background: white;
+	padding-bottom: 15px;
+	}
+
+
+/*******************************/
+/* story misc */
+/*******************************/
+.user-picutre-title h2,h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	
+#find-story-search {
+	border: solid;
+	padding: 15px;
+	}
+
+/*******************************/
+/* related */
+/*******************************/
+
+/* set in panel content Page Title */
+.story-reduced-title {
+	font-size: 140%;
+}
+
+/* classes set in panels regions */
+.related1 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid lightblue;
+}
+.related2 {
+	width: 274x;
+	height: 274px;
+	border: 1px solid lightgreen;
+}
+.related3 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid yellow;
+}
+.related4 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid lightgreen;
+}
+.related5 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid lightblue;
+}
+.related6 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid lightcoral;
+}
+
+/*************************************************/
+/* stories by event, person, etc in gallery form */
+/*************************************************/
+
+.icontitlewidth {
+	width: 205px;
+}
+
+/*************************************************/
+/* site blog                                     */
+/*************************************************/
+
+.site-blog .node {
+	border: solid grey 1px;
+	padding: 10px;
+}
+
+/*************************************************/
+/* annotated book                                */
+/*************************************************/
+/*.region-sidebar-second {
+	/* this is targeting the bullet point markers on the right sidebar */
+	padding-left: 15px;
+	}*/
+
+.node-type-annotation .breadcrumb {
+	padding-bottom: 10px;
+	font-size: 90%;
+	}
+
+.annotated_book_node {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	background: #EFFBF2;
+	font-weight: 500;
+	padding-left: 16px;
+	/* 
+	margin-right: 20px;*/
+	}
+.annotated_book_node h2 {
+	font-size: medium;
+	}
+.annotated_book_node .pane-node-title {
+	font-weight: 600;
+	}
+.annotated_book_node .book-navigation {
+	background: #FFFFFF;
+	}
+
+.annotated_book_story {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	background: #EFFBFB;
+	font-weight: 500;
+	padding-left: 16px;
+	}
+.annotated_book_story h2 {
+	font-size: medium;
+	}
+.annotated_book_story .pane-node-title {
+	font-weight: 600;
+	}
+	
+.annotated_book_user_int {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	padding: 15px 25px;
+	background: #EFFBFB;
+	font-weight: 600;
+	}
+	
+.annotated_book_comments {
+	border-top: 1px solid black;
+	}
+.annotated_book_comments .pane-title {
+	font-size: 150%;
+	padding-top: 15px;
+	}
+.annotated_book_comments .field-item {
+	background: white;
+	padding: 15px;
+	}	
+.annotated_book_comments_form {
+	border-top: 1px solid black;
+	}	
+/*.annotated_book_comments_form .pane-title h2 {
+	font-size: medium;
+	}
+	
+.annotated_book_likes h2,h4 {
+	display: inline;
+	}	*/
+
+/*************************************************/
+/* detailed visual pop */
+/*************************************************/
+.flag-likecontent {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	padding: 2px 5px;
+	background: #CEECF5;
+	font-weight: 600;
+	}
+.flag-bookmarks {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	padding: 2px 5px;
+	background: #E0F8E6;
+	font-weight: 600;
+	}
+.look-down-page h2 {
+	color: #0B173B;
+	}	
+	
+/*******************************/
+/* comments and footer menus */
+/*******************************/
+
+.pane-node-comment-form h2 {
+	font-size: 18px;
+	}
+
+.zone-postscript .leaf {
+	list-style-type:none;
+	list-style-image:none;
+	font-size:90%;
+	}
+.zone-postscript {
+	background-color: lightgray;
+	padding: 15px;
+	}
+ 

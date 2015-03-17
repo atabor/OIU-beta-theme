@@ -1,0 +1,352 @@
+/* This file will hold styles for the mobile version of your website 
+                                                    (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless 
+    overwritten by a more specific style rule, CSS declarations in 
+    global.css will apply site-wide. */
+
+/* ALL & MOBILE */
+
+/* media queries
+narrow  - 740
+normal  - 980
+wide    - 1220 
+
+colors
+light blue  - #DBEAF4
+dark blue   - #24446b
+comment form? #C6D4E3
+grey        - #f2f2f2
+*/
+
+/****************************/
+/****************************/
+/* Full Site ****************/
+/****************************/
+/****************************/
+
+/****************************/
+/* phone only - some overwritten at default
+/****************************/
+
+.responsive-layout-mobile .featured-links {
+    visibility: hidden;
+    height: 0;
+}
+
+.responsive-layout-mobile .region-story-links {
+    visibility: hidden;
+    height: 0;
+}
+
+.responsive-layout-mobile .views-field-field-group-theme-banner,
+.responsive-layout-mobile .groups {
+    visibility: hidden;
+    height: 0;
+}
+/*.story-short-form {
+    float: none;
+}*/
+
+.responsive-layout-mobile .region-story-links,
+.responsive-layout-mobile .story-short-form img,
+.responsive-layout-mobile .full-story-postscript-1,
+.responsive-layout-mobile .full-story-postscript-2,
+.responsive-layout-mobile .full-story-postscript-2 bear-story-icon,
+.responsive-layout-mobile input
+{
+    width: 100%;
+}
+.responsive-layout-mobile img.bear-story-icon {
+    width: 100%;
+}
+
+.responsive-layout-mobile .story-short-form,
+.responsive-layout-mobile .full-story-postscript-2 {
+    float: none;
+}
+.responsive-layout-mobile .full-story-postscript-1 {
+    margin-bottom: 8px;
+}
+
+/****************************/
+/* Full Site: color *********/
+/****************************/
+
+#zone-user-wrapper,
+#zone-branding-wrapper,
+#zone-menu-wrapper,
+#zone-header-wrapper,
+#zone-preface-wrapper,
+#zone-content-wrapper,
+#zone-postscript-wrapper,
+#zone-footer-wrapper
+ {
+    background: black;
+  }
+
+#zone-header,
+#zone-preface
+{
+    background: #DBEAF4;
+    // light blue
+}
+/*#region-content
+{	
+    background: white;
+}*/
+
+#zone-menu,
+#zone-user,
+#zone-branding
+{	
+    background: #24446b;
+    // dark blue
+}
+
+#zone-content,
+#region-sidebar-second,
+#zone-postscript,
+#zone-footer 
+{
+    background: #F2F2F2;
+    // light grey
+}
+
+.story-related-story {
+    background: #F2F2F2;
+}
+
+/****************************/
+/* Full Site: elements ******/
+/****************************/
+
+/* general elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+h2.block-title {
+    font-size: 100%;
+}
+.breadcrumb {
+    display:none;
+}
+
+.block-powered-by {
+    font-size: 50%;
+}
+.front .block-powered-by  {
+//    background: #F2F2F2;
+    text-align: right;
+}
+
+
+a:link, a:visited, a:active {
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline;
+}
+.site-name a:hover {
+    text-decoration: none; 	   
+}
+
+.nice-menu {
+    // this is only for the administrative menu currently - should switch
+    // to sans serif if becomes visible to general population
+    font-family: Georgia, 'Times New Roman', serif;
+}
+    
+/* site name */
+h1.site-name, h2.site-name {
+    letter-spacing: 0px;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+#region-branding a {
+    color: white;
+}
+
+/* site slogan */ 
+#region-branding h6 {
+    color: white;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0px;	
+}
+
+/* login */	
+#region-user-second a {
+    color: white;
+    background: #24446b;
+    font-family: 'Lato';	
+}
+
+/* main menu */        
+#region-menu a {
+// might have to be at narrow or normal - there was something tweaky
+// menu was moved up to region-user-second
+    color: white;
+    font-family: 'Lato';
+    font-size: 100%;
+    background: #24446b;	
+    }
+ul.nice-menu-main-menu {
+    color: white;
+    font-family: 'Lato';
+    font-size: 100%;
+    background: #24446b;
+    }
+ul.nice-menu-main-menu li {
+    border-style: none;
+    background: #24446b;
+}
+ul.nice-menu-main-menu a {
+    border-style: none;
+    background: #24446b;
+    color: white;
+}    
+
+/****************************/
+/* Front Page ***************/
+/****************************/
+.front .view-content {
+    padding-left: 8px;
+}
+.front #page-title  {
+    display:none;
+}
+.featured-story-title {
+    margin-bottom: 0;
+}
+.read-more {
+    font-size: 150%;
+}
+.featured-story-author {
+    padding-left: 30px;
+    margin-bottom: 8px;
+}	
+.flexible-related-region table {
+    border: 0;
+}
+.flexible-related-region h2 {
+    font-size: 180%
+}
+.flexible-related-region .flexible-related-pane {
+    width: 274px;
+    height: 274px;
+//    border: 1px solid lightblue;
+    float: left;
+}
+
+/****************************/
+/* Story    *****************/
+/****************************/
+
+/* sub brand */        
+#region-header-first, #region-header-second {
+    font-family: 'Lato';
+    letter-spacing: 0px;
+//    background: #C6D4E3;
+    background: #DBEAF4;
+ //   margin-right: 0px;
+ //   margin-left: 8px;
+}
+#region-header-first h2 {
+//    margin-bottom: 0px;
+//    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+#region-header-second h6 {
+    font-family: 'Lato';
+    font-weight: 500;
+}
+
+/* story links */
+.story-page #page-title {
+    font-size: 145%;
+} 
+.region-story-links {
+    background: #F2F2F2;
+}
+
+/* subscription panes */
+.subscription-pane table {
+    border-width: 2px 0px 0px;
+    border-color: gray;
+    margin-bottom: 0;
+}
+.subscription-pane tr {
+    border: solid 1px lightgray;
+}
+
+h3.subscriptions-button {
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border:1px solid black;
+    display:inline-block;
+    padding:6px 15px;
+//    text-decoration:none;
+}
+
+/*.view-story-links {
+    border-left: 1px solid lightgray;
+    background: white;        
+}*/
+/*.author-pane {
+    background: white;
+}*/
+
+/* misc lower page elements */
+.connected-story-table table {
+    border: none;
+}
+
+.pane-node-creative-commons-bug h2 {
+    margin: 0px;
+}
+
+/* Comments   ***************/
+/* region for comments */
+.full-story-postscript-1 {
+    background: #C6D4E3;
+    padding-left: 6px;
+    // border: solid 1px #B3B3B3;
+}
+.comment {
+    margin-left: 7px;
+    margin-bottom: 4px;
+    background-color: #DBEAF4;    
+}
+.bear-comment-form {
+    padding-left: 6px;
+}
+.bear-comment-form h2 {
+    font-size: 140%;
+}
+
+.comment-form .filter-wrapper {
+    padding: 0em;
+    }
+.comment-form .form-item-mail,.form-item-name {
+    margin-top: .2em;
+    margin-bottom: .2em;
+    }	
+.comment-form .form-actions {
+    margin-top: -.5em;
+    }
+.comment-form #edit-submit {
+    background: url();
+    border: 0px;
+/*	margin-left: 14px;*/
+    color: #0062A0;
+    font-size: medium;
+    }	
+.comment-form #edit-author--2,
+#edit-comment-body-und-0-format-help,
+#edit-comment-body-und-0-format-guidelines, 
+#edit-comment-body-und-0-format {
+    display:none;
+    }

@@ -1,0 +1,207 @@
+/* This file will hold styles that are loaded using the same media query as 
+                                                                    the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ * apply to the widescreen layout unless they are overridden by the widescreen styles.*/
+ 
+ /* NORMAL */
+ 
+ /* class set from view */
+ 
+ /* 2014 01/03 */
+ /* 2014 02/03 - bear logos */
+ /* 2014 03/02 - greatly simplified add story form 
+                                    :: check css coz most is probably now useless */
+ /* 2014 04/22 */
+ /* 2014 05/02 */
+ /* 2014 05/22 - flexible related stories on the front page */
+
+/* STUFF THAT NEEDS TO BE IN NORMAL ****************************************/
+ 
+/* left side bar related story images 
+   200 px width is good but are too big below 980px */
+.related-bendable table {
+    width: 200px;
+}
+
+/* footer menu  - overridden at wide */
+.region-postscript-first {
+    padding-left: 144px;
+}
+
+/****************************/
+/* Full Site ****************/
+/****************************/
+
+/* main menu */
+ul.nice-menu-main-menu {
+//  2015-0128 set for this width specifically    
+//  float: right; <-when in menu region
+    padding-bottom: 0px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    }
+
+    
+.not-logged-in ul.nice-menu-main-menu {
+    left: -218px;
+    top: 36px;        
+    }
+.logged-in ul.nice-menu-main-menu {
+    left: -229px;
+    top: 20px;        
+    }
+.front.not-logged-in ul.nice-menu-main-menu {
+    left: -159px;
+    top: 36px;        
+    }
+.front.logged-in ul.nice-menu-main-menu {
+    left: -170px;
+    top: 20px;        
+    }
+    
+/* search */    
+.block-search {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+ 
+/*******************************/
+/* not logged in */
+/*******************************/
+/* stuff that goes with front page? */
+
+
+.block-menu-simple ul {
+	padding-left: 10px;
+	padding-bottom: 20px;
+	
+}
+.block-menu-simple ul li{
+	font-size: large;
+	display: inline;
+	padding-left: 10px;
+	
+}
+
+/* added in content iframe */
+
+iframe.float-right {
+	float: right;
+/*	text-align: right;
+	margin: 20px; */
+	padding: 20px;
+}
+.float-left
+{
+	float: left;
+/*	text-align: left;
+	padding-right: 20px;
+	padding-left: 20px; */
+}
+
+
+/***************************************************************/
+/***************************************************************/
+/* Page Specific Elements                                 ******/
+/***************************************************************/
+/***************************************************************/
+
+/****************************/
+/* Front Page ***************/
+/****************************/
+
+.featured .video-main {
+    width: 630px;
+    height: 323px;
+}
+
+/*.read-more {
+ 	padding-left: 550px;
+ 	}*/
+
+.flexible-related-row {
+    background-color: #F2F2F2;
+}
+
+/*******************************/
+/* story misc */
+/*******************************/
+
+.story-short-form .video-main {
+    width: 630px;
+    height: 323px;
+}
+.video-other {
+    width: 420px;
+    height: 212px;
+}
+
+.user-picutre-title h2,h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+	
+#find-story-search {
+    border: solid;
+    padding: 15px;
+}
+	
+.full-story-body {
+    padding-right: 1.25em;
+}	
+
+.full-story-footer {
+    border-top: solid 1px lightgray;
+}
+	
+.comment .user-picture img {
+    width: 50px;
+}
+
+	
+/***************************************************************/
+/*************************************************/
+/* stories by event, person, etc in gallery form */
+/*************************************************/
+
+.icontitlewidth {
+	width: 205px;
+}
+
+/***************************************************************/
+/*******************************/
+/* person page */
+/*******************************/
+
+.person-top-bar .video-main {
+	width: 540px;
+	height: 277px;
+	float: left;
+	padding-right: 7px;
+	}
+	
+.person-top-right-panel h3 {
+	color: grey;
+	}	
+
+/***************************************************************/
+/*******************************/
+/* user page */
+/*******************************/
+
+.user-page-top-bar {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	}
+.user-page-top-bar .views-field-name {
+	margin-bottom: 0px;
+	}
+.user-page-top-left-panel {
+	margin-top: -25px;
+	}	
+.user-page-top-left-panel,.user-page-top-right-panel h3 {
+	color: grey;
+	}	
+

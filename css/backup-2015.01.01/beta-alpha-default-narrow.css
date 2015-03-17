@@ -1,0 +1,101 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ 
+/* NARROW */
+
+/* 09/15 stuff - futzing with comment buttons */
+.comment-links ul li a {
+	background: url();
+	border: 0px;
+	color: #0062A0;
+	}
+.comment p {
+	margin: 0px;
+	}
+		 
+/* 06/14 stuff */
+/* links - full site */
+a:link, a:visited, a:active {
+	text-decoration: none; 
+	}
+a:hover {
+  	text-decoration: underline;
+  	}
+.site-name a:hover {
+	text-decoration: none; 	   
+	}
+.view-story-links a:link {
+  	text-decoration: underline;
+  	}	
+/* left side bar */
+.subscribe-bear {
+	padding-top: 8px;
+	}
+.related-bendable .views-field-field-icon {
+	padding-bottom: 3px;
+	border-bottom: 2px solid rgb(185, 185, 185);
+	}	
+/* menu on front page  - don't display home on home page */
+.front 	.menu-1089 {
+	display:none;
+	}	
+	  	 
+ /* end 06/14 */
+ 
+/****************************/
+/* Full Site ****************/
+/****************************/
+ 
+h1.site-name {
+ 	letter-spacing: 0px;
+ 	}
+h2.site-name { 	
+ 	letter-spacing: 0px;
+ 	}
+
+#region-branding a {
+	font-family: 'Lato';
+	color: white;
+	font-weight: 900;
+	font-size: 70%
+	}
+ 
+ #region-branding h6 {
+	color: white;
+	font-family: 'Lato';
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 0px;	
+	}
+	
+#region-user-second a {
+	color: white;
+	background: #24446b;
+	font-family: 'Lato';	
+	}
+	
+#region-menu a {
+/* for some reason color had to be selected at this level so I moved font, etc up here too */
+	color: white;
+	font-family: 'Lato';
+	font-size: 100%;
+	background: #24446b;	
+	}	
+ul.nice-menu-main-menu {
+	float: right;
+	padding-right: 3px;
+	padding-bottom: 4px;
+	}
+ul.nice-menu-main-menu li {
+	border-style: none;
+	}
+	
+#region-content {	
+	float: right;
+	}
+.full-story-body {
+	font-size: 110%;
+	}	
+		

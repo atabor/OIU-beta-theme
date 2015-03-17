@@ -1,0 +1,175 @@
+/* This file will hold styles that are loaded using the same media query as 
+                                                                    the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ * apply to the widescreen layout unless they are overridden by the widescreen styles.*/
+ 
+ /* NORMAL */
+ 
+ /* class set from view */
+ 
+ /* 2014 01/03 */
+ /* 2014 02/03 - bear logos */
+ /* 2014 03/02 - greatly simplified add story form 
+                                    :: check css coz most is probably now useless */
+ /* 2014 04/22 */
+ /* 2014 05/02 */
+ /* 2014 05/22 - flexible related stories on the front page */
+
+
+/* OLD AND IN THE WAY ********************************************************/
+
+/* class hard coded in front page :: no longer used
+.button {
+	background: lightblue;
+	border: 2px solid darkgray;
+	margin: 25px;
+	padding: 15px;
+	-moz-border-radius: 10px 10px 10px 10px;
+}
+*/
+
+
+
+/**************************************/
+/* things to do */
+/**************************************/ 
+/* all to css injection doc 2013-0826 */
+
+/* search form needs some padding to work with this; 
+                but inline setting overrides padding so... */
+ .block-things-to-do-block-2 {
+ 	padding-top: 17px;
+ }
+
+ .block-things-to-do-block {
+ 	background: white;
+ 	padding-left: 22px;
+ 	padding-top: 12px;
+ 	border: 2px solid lightgray;
+ 	margin-bottom: 5px; 
+ }
+  .block-things-to-do-last-block {
+ 	background: white;
+ 	padding-left: 22px;
+ 	padding-top: 12px;
+ 	border: 2px solid lightgray;
+ 	margin-bottom: 25px; 
+ }
+
+
+
+/*************************************************/
+/* detailed visual pop */
+/*************************************************/
+/*******************************/
+/* story likes */
+/*******************************/
+.flag-likecontent {
+    border: 1px solid black;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    padding: 2px 5px;
+    background: #CEECF5;
+    font-weight: 600;
+}
+.view-story-likes {
+    border-left: 1px solid lightgray;
+    padding-left: 5px;
+    border-top: 1px solid lightgray;
+    padding-top: 8px;
+    border-radius:5px;
+    -moz-border-radius:5px; 
+    background: white;
+    padding-bottom: 15px;
+}
+/*.flag-bookmarks {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px;  Firefox 3.6 and earlier 
+	padding: 2px 5px;
+	background: #E0F8E6;
+	font-weight: 600;
+	}*/
+/*.look-down-page h2 {
+	color: #0B173B;
+	}	*/
+
+
+/***************************************************************/
+/*************************************************/
+/* site blog                                     */
+/*************************************************/
+
+.site-blog .node {
+	border: solid lightgray 1px;
+	padding: 10px;
+}
+
+/***************************************************************/
+/*************************************************/
+/* annotated book                                */
+/*************************************************/
+
+.node-type-annotation .breadcrumb {
+	padding-bottom: 10px;
+	font-size: 90%;
+	}
+
+.annotated_book_node {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	background: #EFFBF2;
+	font-weight: 500;
+	padding-left: 16px;
+	/* 
+	margin-right: 20px;*/
+	}
+.annotated_book_node h2 {
+	font-size: medium;
+	}
+.annotated_book_node .pane-node-title {
+	font-weight: 600;
+	}
+.annotated_book_node .book-navigation {
+	background: #FFFFFF;
+	}
+
+.annotated_book_story {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	background: #EFFBFB;
+	font-weight: 500;
+	padding-left: 16px;
+	}
+.annotated_book_story h2 {
+	font-size: medium;
+	}
+.annotated_book_story .pane-node-title {
+	font-weight: 600;
+	}
+	
+.annotated_book_user_int {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	padding: 15px 25px;
+	background: #EFFBFB;
+	font-weight: 600;
+	}
+	
+.annotated_book_comments {
+	border-top: 1px solid black;
+	}
+.annotated_book_comments .pane-title {
+	font-size: 150%;
+	padding-top: 15px;
+	}
+.annotated_book_comments .field-item {
+	background: white;
+	padding: 15px;
+	}	
+.annotated_book_comments_form {
+	border-top: 1px solid black;
+	}	

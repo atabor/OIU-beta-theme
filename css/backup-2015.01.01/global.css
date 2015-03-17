@@ -1,0 +1,52 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* ALL & MOBILE */
+
+/****************************/
+/* Full Site ****************/
+/****************************/
+
+.breadcrumb {
+	display:none;
+	}
+
+/****************************/
+/* Front Page ***************/
+/****************************/
+
+.front #page-title  {
+	display:none;
+	}
+.featured-story-title {
+	margin-bottom: 0;
+	}
+.featured-story-author {
+	padding-left: 30px;
+	margin-bottom: 8px;
+	}	
+	
+/****************************/
+/* Comments   ***************/
+/****************************/
+
+.comment-form .filter-wrapper {
+	padding: 0em;
+	}
+.comment-form .form-item-mail,.form-item-name {
+	margin-top: .2em;
+	margin-bottom: .2em;
+	}	
+.comment-form .form-actions {
+	margin-top: -.5em;
+	}
+.comment-form #edit-submit {
+	background: url();
+	border: 0px;
+/*	margin-left: 14px;*/
+	color: #0062A0;
+	font-size: medium;
+	}	
+.comment-form #edit-author--2,#edit-comment-body-und-0-format-help,#edit-comment-body-und-0-format-guidelines, #edit-comment-body-und-0-format {
+	display:none;
+	}

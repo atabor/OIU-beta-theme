@@ -1,0 +1,13 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+/* WIDE */
+
+
+/****************************/
+/* Full Site ****************/
+/****************************/
+
+#region-menu a {
+/* for some reason color had to be selected at this level so I moved font, etc here too */
+	font-size: 110%;
+	}

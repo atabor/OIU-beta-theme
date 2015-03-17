@@ -1,0 +1,62 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+#zone-user-wrapper,
+#zone-branding-wrapper,
+#zone-menu-wrapper,
+#zone-header-wrapper,
+#zone-preface-wrapper,
+#zone-content-wrapper,
+#zone-postscript-wrapper,
+#zone-footer-wrapper
+ {
+	background: #EFFBF5;
+  	}
+
+#zone-user,
+#zone-branding,
+#zone-menu,
+#zone-header,
+#zone-preface,
+#zone-content
+
+{
+  	background: white;
+	}
+#zone-postscript,
+#zone-footer 
+{
+	background: #EFFBF5;
+  	}
+
+/* 
+#zone-user-wrapper,
+#zone-branding-wrapper,
+#zone-menu-wrapper,
+#zone-header-wrapper,
+#zone-preface-wrapper,
+#zone-content-wrapper,
+#zone-postscript-wrapper,
+#zone-footer-wrapper
+ {
+	background: #EFFBF5;
+  	}
+
+#zone-user,
+#zone-branding,
+#zone-menu,
+#zone-header,
+#zone-preface,
+{
+  	background: #F2F2F2;
+	}
+	
+#zone-content {
+	background: #DBEAF4;
+	}
+
+#zone-postscript,
+#zone-footer 
+{
+	background: #F2F2F2;
+  	}
+ */  	

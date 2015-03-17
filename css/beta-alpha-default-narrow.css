@@ -1,0 +1,70 @@
+/* This file will hold styles that are loaded using the same media query as 
+                                                              the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will 
+ *  also apply to the normal and widescreen layouts. You may override these styles  
+ *  in the normal and widescreen CSS files as appropriate. */
+ 
+/* NARROW */
+
+/****************************/
+/* Full Site ****************/
+/****************************/
+       
+/*    
+#story-content {	
+    float: right;
+}
+*/
+/* menu on front page  - don't display home on home page */
+.front 	.menu-1089 {
+    display:none;
+}	
+
+
+.full-story-body {
+    font-size: 110%;
+}	
+
+ul.nice-menu-main-menu {
+//    float: right; <-when in menu region
+//    position: absolute;
+//    left: -218px;
+//    top: 18px;
+    padding-bottom: 0px;
+    margin-left: -270px;
+    margin-top: 23px;
+}
+
+/* **************** */
+/* Story Pages ******/
+/* **************** */
+
+/* left side bar */
+.subscribe-bear {
+    padding-top: 8px;
+}
+
+.related-bendable .views-field-field-icon {
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(185, 185, 185);
+}	
+.related-bendable table {
+    width: 200px;
+    display: inline-table;
+    margin: 5px;
+}
+.related-bendable {
+    background: #F2F2F2;
+} 
+
+/* 09/15/14 stuff - futzing with comment buttons */
+.comment-links ul li a {
+    background: url();
+    border: 0px;
+    color: #0062A0;
+}
+.comment p {
+    margin: 0px;
+}
+
+    

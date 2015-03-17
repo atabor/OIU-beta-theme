@@ -1,0 +1,650 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ 
+ /* class set from view */
+ 
+ /* 2014 01/03 */
+ /* 2014 02/03 - bear logos */
+ /* 2014 03/02 - greatly simplified add story form :: check css coz most is probably now useless */
+ /* 2014 04/22 */
+ /* 2014 05/02 */
+
+.read-more {
+ 	padding-left: 550px;
+ 	}
+.breadcrumb {
+	display:none;
+	}
+.nice-menu {
+	font-family: Georgia, 'Times New Roman', serif;
+	}
+.nice-menu-main-menu {
+	font-size: larger;
+	}	
+		
+/* - this demolishes the existing boxes
+.home-related-stories-header {
+ 	padding-top: 25px;
+*/
+
+
+/* ADD STORY AND COMMENT STUFF */
+/* temporarily up top */
+
+.addstoryform #edit-submit--3 {
+	background: #FFFD01;
+	} 
+.simplestoryform-intro-left {
+ 	padding-top: 15px;
+/* 	padding-bottom: 12px;*/
+ 	padding-left: 40px;
+  	border: solid black 2px;
+ 	background: lightblue;
+ 	text-align: left;
+ 	font-size: large;
+ 	}
+.simplestoryform-panel-left {
+	border-top: solid grey 3px;
+	border-left: solid grey 1px;
+	border-right: solid grey 1px;
+	border-bottom: solid grey 3px;
+	}	
+	
+.comment-form .form-item-homepage,.form-item-subject {
+	display: none;
+	}
+	
+ /* 2014 03/02 - greatly simplified add story form :: check css coz most is probably now useless */	
+.addstoryform-panel-left #edit-submit {
+	background: #FFFD01;
+	} 	
+.addstoryform-user-panel-1 #edit-submit--3 {
+	background: #FFFD01;
+	font-size: x-large;
+	}
+
+.addstoryform-intro-left {
+ 	padding-top: 50px;
+ 	padding-bottom: 50px;
+ 	border: solid black 2px;
+ 	background: lightblue;
+ 	text-align: center;
+ 	font-size: large;
+ 	}
+.addstoryform-panel-left {
+ 	border-right: solid grey 1px;
+ 	border-left: solid grey 1px;
+  	border-top: solid grey 3px;
+ 	padding-left: 2px;
+ 	} 
+.addstoryform-panel-left h3 { 	
+ 	background: lightblue;
+ 	text-align: center;
+ 	} 		
+.addstoryform-user-fields {
+	border-top: solid grey 3px;
+	border-left: solid grey 1px;
+	border-right: solid grey 1px;
+	padding-left: 10px;
+	}
+.addstoryform-user-fields h3 { 	
+ 	background: lightblue;
+ 	text-align: center;
+ 	} 
+.addstoryform-user-fields-anonymous {
+	border-top: solid grey 3px;
+	border-left: solid grey 1px;
+	border-right: solid grey 1px;
+	border-bottom: solid grey 3px;
+	padding-left: 10px;
+	}
+.addstoryform-user-fields-anonymous h3 { 	
+ 	background: lightblue;
+ 	text-align: center;
+	}
+.addstoryform-user-fields-anonymous .pane-user-login {
+	margin-left: 55px;
+	}
+.addstoryform-user-fields-anonymous #edit-submit--2 {
+	font-size: medium;
+	background: yellow;
+	}	
+.addstoryform-moderator-bar {
+	border-left: solid grey 1px;
+	border-right: solid grey 1px;
+	padding-left: 10px;
+	margin-top: -5px;
+	}	
+.addstoryform-user-panel-1 {
+	/* border-bottom: solid grey 3px;*/
+	border-left: solid grey 1px;
+	border-right: solid white 1px;	
+	padding-left: 2px;
+	}
+.addstoryform-user-panel-2 {
+	/* border-bottom: solid grey 3px;*/
+	border-right: solid grey 1px;
+	padding-right: 4px;
+	}	
+.addstoryform-user-panel-1 #edit-submit--2 {
+	background: yellow;
+	font-size: xx-large;
+	margin-left: 55px;
+	}	
+ 	
+/***************************************************************/
+/***************************************************************/
+/* Site Wide Elements                                 **********/
+/***************************************************************/
+/***************************************************************/
+
+.read-more {
+ 	padding-left: 550px;
+ 	}
+.block-search {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	}
+
+/* test css for bendable center related stories 
+	2013 0913 */
+.related-bendable table {
+	width: 200px;
+	display: inline-table;
+	margin: 5px;
+	}
+.related-bendable {
+	background: #F2F2F2;
+	} 
+/*
+.breadcrumb {
+	padding-left: 200px;*/	
+
+/* the below was only used on the comment form...now isn't */ 
+.small-action-point {
+	background-image: url(../images/bear-smaller-action-point.png);
+	background-repeat: no-repeat;
+	background-position-x: 87%;
+} 
+/*******************************/
+ /* std classes */
+ /*******************************/
+
+.clear {
+	clear: both;
+	font-size: large;
+	}
+
+.block-powered-by {
+	font-size: 50%;
+}
+
+.region-user-second li {
+	display: inline;
+	list-style-image: none;
+	list-style-type: none;
+/*	float: right;*/
+	}
+.region-user-second div {
+	padding-top: 5px;
+	}	
+ 
+.region-menu {
+	padding-bottom: 22px;
+/*	padding-left: 185px;*/
+	font-size: large;	
+}
+
+.region-story-links h2 {
+	margin-bottom: 0px;
+	}
+
+.panels-flexible-row-18-1,
+.panels-flexible-row-18-2,
+.panels-flexible-row-18-3,
+.panels-flexible-row-5-7,
+.panels-flexible-row-5-6,
+.panels-flexible-row-5-5
+ {
+	background: #F2F2F2;
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	}
+.panels-flexible-row-18-3 {
+	border-bottom: 1px solid lightgray;
+	}
+
+
+/**************************************/
+/* things to do */
+/**************************************/ 
+/* all to css injection doc 2013-0826 */
+
+/* search form needs some padding to work with this; but inline setting overrides padding so... */
+ .block-things-to-do-block-2 {
+ 	padding-top: 17px;
+ }
+
+ .block-things-to-do-block {
+ 	background: white;
+ 	padding-left: 22px;
+ 	padding-top: 12px;
+ 	border: 2px solid lightgray;
+ 	margin-bottom: 5px; 
+ }
+  .block-things-to-do-last-block {
+ 	background: white;
+ 	padding-left: 22px;
+ 	padding-top: 12px;
+ 	border: 2px solid lightgray;
+ 	margin-bottom: 25px; 
+ }
+
+/**************************************/
+/* footer menus */
+/**************************************/
+
+.zone-postscript .leaf {
+	list-style-type:none;
+	list-style-image:none;
+	font-size:90%;
+	}
+.zone-postscript {
+	background-color: lightgray;
+	}
+.region-postscript-first {
+	padding-left: 200px;
+	}
+	 
+/*******************************/
+/* not logged in */
+/*******************************/
+/* stuff that goes with front page? */
+
+/* not sure where this one is set */
+.not-logged-in h2 {
+	font-size: 120%;
+}
+
+.block-menu-simple ul {
+	padding-left: 10px;
+	padding-bottom: 20px;
+	
+}
+.block-menu-simple ul li{
+	font-size: large;
+	display: inline;
+	padding-left: 10px;
+	
+}
+
+/* class hard coded in front page :: no longer used
+.button {
+	background: lightblue;
+	border: 2px solid darkgray;
+	margin: 25px;
+	padding: 15px;
+	-moz-border-radius: 10px 10px 10px 10px;
+}
+*/
+
+/* added in content iframe */
+iframe.float-right {
+	float: right;
+/*	text-align: right;
+	margin: 20px; */
+	padding: 20px;
+}
+.float-left
+{
+	float: left;
+/*	text-align: left;
+	padding-right: 20px;
+	padding-left: 20px; */
+}
+
+
+/***************************************************************/
+/***************************************************************/
+/* Page Specific Elements                                 ******/
+/***************************************************************/
+/***************************************************************/
+
+/***************************************************************/
+/*******************************/
+/* home page */
+/*******************************/
+
+/* all to css injection doc 2013-0826 */ 
+
+/* autogen */
+.site-slogan {
+ 	font-size: larger;
+}
+
+/* class set from panel page row */
+.featured {
+
+	border: 1px solid rgb(185, 185, 185);
+/*	border-radius: 15px;*/
+	padding-left: 5px;
+}
+
+/* class set from panel page row */
+.featured-links {
+	padding-top: 48px;
+}
+
+/* class set from view */
+.featured-story-title {
+	font-size: 140%;
+	}
+.front h1 {
+/*	font-size: 28px;*/
+	font-size: 200%;
+}
+.front #page-title  {
+	background: #F2F2F2;
+	margin-bottom: 0px;
+	text-align: left;
+}
+.front .block-powered-by  {
+	background: #F2F2F2;
+	text-align: right;
+}
+
+.featured .video-main {
+	width: 630px;
+	height: 323px;
+	}
+
+/***************************************************************/
+/*******************************/
+/* story page */
+/*******************************/
+
+/***************************************************************/
+/* note - drupal adds node-type-story at top level div */
+/* note - I've added, via Panels, the class story-page */
+
+.story-page .region-content {
+ 	border: 1px solid rgb(185, 185, 185);
+	margin: 0px;
+	padding: 8px;
+	border-radius: 15px;
+ 	}
+.story-page #page-title {
+	font-size: 200%;
+	} 	
+
+/*******************************/
+/* story links */
+/*******************************/
+
+.view-story-links {
+	border-left: 1px solid lightgray;
+	padding-left: 5px;
+	padding-bottom: 12px;
+	background: white;
+	/* background: url(images/trans-white.png); 
+	background: url(../files/images/trans-white.png);
+ 
+	background: url(trans-white.png);  */
+	}
+
+/*******************************/
+/* story likes */
+/*******************************/
+
+.view-story-likes {
+	border-left: 1px solid lightgray;
+	padding-left: 5px;
+	border-top: 1px solid lightgray;
+	padding-top: 8px;
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	background: white;
+	padding-bottom: 15px;
+	}
+
+
+/*******************************/
+/* story misc */
+/*******************************/
+
+.story-short-form .video-main {
+	width: 630px;
+	height: 323px;
+	}
+
+
+.user-picutre-title h2,h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	
+#find-story-search {
+	border: solid;
+	padding: 15px;
+	}
+	
+.full-story-body {
+	padding-right: 1.25em;
+	}	
+
+.full-story-footer {
+	border-top: solid 1px lightgray;
+	}
+	
+.comment .user-picture img {
+	width: 50px;
+	}
+
+/*******************************/
+/* story related */
+/*******************************/
+
+/* set in panel content Page Title */
+.story-reduced-title {
+	font-size: 140%;
+}
+
+/* classes set in panels regions */
+.related1 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid lightblue;
+}
+.related2 {
+	width: 274x;
+	height: 274px;
+	border: 1px solid lightgreen;
+}
+.related3 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid yellow;
+}
+.related4 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid lightgreen;
+}
+.related5 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid lightblue;
+}
+.related6 {
+	width: 274px;
+	height: 274px;
+	border: 1px solid lightcoral;
+}
+
+.pane-node-comment-form h2 {
+	font-size: 18px;
+	}
+
+
+/*************************************************/
+/* detailed visual pop */
+/*************************************************/
+.flag-likecontent {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	padding: 2px 5px;
+	background: #CEECF5;
+	font-weight: 600;
+	}
+.flag-bookmarks {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	padding: 2px 5px;
+	background: #E0F8E6;
+	font-weight: 600;
+	}
+.look-down-page h2 {
+	color: #0B173B;
+	}	
+
+	
+/***************************************************************/
+/*************************************************/
+/* stories by event, person, etc in gallery form */
+/*************************************************/
+
+.icontitlewidth {
+	width: 205px;
+}
+
+/***************************************************************/
+/*******************************/
+/* person page */
+/*******************************/
+
+.person-top-bar .video-main {
+	width: 540px;
+	height: 277px;
+	float: left;
+	padding-right: 7px;
+	}
+	
+.person-top-right-panel h3 {
+	color: grey;
+	}	
+
+/***************************************************************/
+/*******************************/
+/* user page */
+/*******************************/
+
+.user-page-top-bar {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	}
+.user-page-top-bar .views-field-name {
+	margin-bottom: 0px;
+	}
+.user-page-top-left-panel {
+	margin-top: -25px;
+	}	
+.user-page-top-left-panel,.user-page-top-right-panel h3 {
+	color: grey;
+	}	
+
+/***************************************************************/
+/*************************************************/
+/* site blog                                     */
+/*************************************************/
+
+.site-blog .node {
+	border: solid lightgray 1px;
+	padding: 10px;
+}
+
+
+
+/***************************************************************/
+/*************************************************/
+/* annotated book                                */
+/*************************************************/
+/*.region-sidebar-second {
+	/* this is targeting the bullet point markers on the right sidebar */
+	padding-left: 15px;
+	}*/
+
+.node-type-annotation .breadcrumb {
+	padding-bottom: 10px;
+	font-size: 90%;
+	}
+
+.annotated_book_node {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	background: #EFFBF2;
+	font-weight: 500;
+	padding-left: 16px;
+	/* 
+	margin-right: 20px;*/
+	}
+.annotated_book_node h2 {
+	font-size: medium;
+	}
+.annotated_book_node .pane-node-title {
+	font-weight: 600;
+	}
+.annotated_book_node .book-navigation {
+	background: #FFFFFF;
+	}
+
+.annotated_book_story {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	background: #EFFBFB;
+	font-weight: 500;
+	padding-left: 16px;
+	}
+.annotated_book_story h2 {
+	font-size: medium;
+	}
+.annotated_book_story .pane-node-title {
+	font-weight: 600;
+	}
+	
+.annotated_book_user_int {
+	border: 1px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	padding: 15px 25px;
+	background: #EFFBFB;
+	font-weight: 600;
+	}
+	
+.annotated_book_comments {
+	border-top: 1px solid black;
+	}
+.annotated_book_comments .pane-title {
+	font-size: 150%;
+	padding-top: 15px;
+	}
+.annotated_book_comments .field-item {
+	background: white;
+	padding: 15px;
+	}	
+.annotated_book_comments_form {
+	border-top: 1px solid black;
+	}	
+/*.annotated_book_comments_form .pane-title h2 {
+	font-size: medium;
+	}
+	
+.annotated_book_likes h2,h4 {
+	display: inline;
+	}	*/
+
+	

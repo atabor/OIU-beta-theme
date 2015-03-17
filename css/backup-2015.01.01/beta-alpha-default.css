@@ -1,0 +1,54 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+/* GRID = ALL EXCEPT MOBILE */
+
+#zone-user-wrapper,
+#zone-branding-wrapper,
+#zone-menu-wrapper,
+#zone-header-wrapper,
+#zone-preface-wrapper,
+#zone-content-wrapper,
+#zone-postscript-wrapper,
+#zone-footer-wrapper
+ {
+/*	background: pink;  #EFE5C3*/
+
+  	background: black;
+  	}
+
+
+#zone-header,
+#zone-preface,
+#region-content
+{	
+	background: #DBEAF4;
+	}
+
+#zone-menu,
+#zone-user,
+#zone-branding
+{	
+	background: #24446b;
+	}
+
+
+#zone-content,
+#region-sidebar-second
+{
+  	background: #F2F2F2;
+	}
+#zone-postscript,
+#zone-footer 
+{
+	background: #F2F2F2;
+  	}  
+.story-related-story {
+	background: #F2F2F2;
+  	}
+/* region for comments  	 */
+.full-story-postscript-1 {
+  	background: #E6E6E6;
+  	padding-left: 6px;
+  	border: solid 1px #B3B3B3;
+  	} 
+  			

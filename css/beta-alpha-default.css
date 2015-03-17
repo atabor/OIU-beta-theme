@@ -1,0 +1,256 @@
+/* This file will hold styles for all layouts using the alpha grid
+    (i.e. not the mobile layout). */
+
+/* GRID = ALL EXCEPT MOBILE */
+
+/****************************/
+/****************************/
+/* Full Site ****************/
+/****************************/
+/****************************/
+
+/****************************/
+/* override from global */
+/****************************/
+#region-content
+{	
+    background: #DBEAF4;
+    // light blue
+}
+.region-sidebar-first {
+    font-size: 100%;
+}
+.views-field-field-group-theme-banner {
+    visibility: visible;
+    height: auto;
+}    
+.story-short-form {
+    float: left;
+}
+
+/****************************/
+/****************************/
+
+/* general elements */
+
+body {
+    //font-size: 75%;
+    // replaced with font-sizes dialed in below
+}
+#region-content {
+    float: right;
+}
+.clear {
+    clear: both;
+    font-size: large;
+}
+
+
+/* site name  */
+
+h1.site-name, h2.site-name {
+    font-size: 125%;
+}
+ /* site slogan - turn off with sub-branding */
+#region-branding h6 {
+    font-size: 175%;
+    padding-left: 16px;
+    }
+
+/* login and user logout     */
+// 01/04/15 stuff - fix login  & misc
+// >> had to modify some of this in the logintobaggan modules css file!
+//    specifically text decoration and size for the login/register link
+
+.region-user-second li {
+	display: inline;
+	list-style-image: none;
+	list-style-type: none;
+/*	float: right;*/
+	}
+.region-user-second div {
+//	padding-top: 5px;
+	}
+div.toboggan-container {
+    font-family: Lato;
+    color: white;
+    position: relative;
+    // left: -20px;
+    }
+#toboggan-login {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    padding: 8px;
+    border: 1px solid rgb(173, 216, 230);
+    background: #24446b;
+    }
+#toboggan-login .item-list li.first, #toboggan-login .item-list li.last {
+    display: list-item;
+    list-style-type: circle;    
+    }
+.block-logintoboggan {
+    padding-right: 33px;
+    font-size: 85%;
+    }	
+
+   
+/* main full site menu */  
+
+#region-branding .nice-menu-main-menu a {
+    // font-size: 65%;
+    }
+
+ul.nice-menu-main-menu li {
+    margin-right: 10px;
+    }   
+
+/* --> main menu moved up into branding for now        
+.region-menu {
+	padding-bottom: 22px;
+	font-size: large;	
+}
+*/
+
+/****************************/
+/* Front Page ***************/
+/****************************/
+
+/* class set from view */
+.featured-story-title {
+    font-size: 185%;
+}
+.front .featured-links {
+    padding-top: 60px;
+}
+
+/****************************/
+/* Story ********************/
+/****************************/
+
+/* note - drupal adds node-type-story at top level div */
+/* note - I've added, via Panels, the class story-page */
+
+/* SubBrand *****************/
+#region-menu img {
+    width : 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+#region-header-first h2 {
+    position: absolute;
+    z-index: 1;
+    top: -65px;
+    color: white;
+    background-color: rgba(128,128,128,.5);
+    padding-right: 8px;
+    padding-left: 5px;
+}
+
+/* story content */
+.story-page .region-content {
+    //border: 1px solid rgb(185, 185, 185);
+    margin: 0px;
+    padding: 10px;
+}
+
+/*.story-page #page-title {
+    font-size: 145%;
+} */
+.byline {
+    padding-bottom: 3px;
+    font-size: 120%;
+}
+.copyright-holder h5 {
+    font-size: 100%;
+    margin-bottom: 0px;
+    margin-top: -22px;
+}
+.full-story-body h3 {
+    font-size: 1.2em;
+}
+.copyright-terms {
+    font-size: 80%;
+}
+
+/* Story Links *****************/
+.region-story-links {
+    font-size: 100%;
+}
+.region-story-links h3 {
+    font-size: 120%;
+    font-weight: 300;
+}
+.region-story-links h2 {
+    margin-bottom: 0px;
+}
+.view-story-links {
+//    background: #F2F2F2;    
+//  border-left: 1px solid lightgray;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    } 
+.view-story-links a:link {
+    text-decoration: underline;
+}
+.author-pane {
+    margin-bottom: 5px; 
+    padding-left: 2px;
+//    background-color: #F2F2F2;
+}
+.author-pane a:link {
+    text-decoration: underline;
+}  
+.author-icon {
+    float: left;
+    padding-right: 3px;
+    margin-bottom: 5px;
+}
+.author-name {
+    display: block;
+    padding-bottom: 24px;
+}    
+
+/* SubBrand  ****************/
+#region-header-first, #region-header-second {
+    margin-right: 0px;
+    margin-left: 8px;
+}
+#region-header-first h2 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#region-header-second h6 {
+// -> moved to global    
+//    font-family: Lato;
+//    font-weight: 500;
+}
+
+/**************************************/
+/* footer menus */
+/**************************************/
+
+.zone-postscript .leaf {
+    list-style-type:none;
+    list-style-image:none;
+    font-size:90%;
+}
+.zone-postscript {
+    background-color: lightgray;
+}
+.region-postscript-first {
+    padding-left: 118px;
+}
+        
+/*****************************/
+/* Comments and Tell a Story */
+/*****************************/
+
+.comment-form .form-item-homepage,.form-item-subject {
+	display: none;
+	}
+
+
+img.bear-story-icon {
+    margin-left: 20px;
+}

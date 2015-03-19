@@ -287,20 +287,18 @@ h3.follow-button {
     display:inline-block;
     padding:6px 15px;
     color: #0062A0;
-//    text-decoration:none;
 }
 .follow-question-icon {
     position: absolute;
     top: 12px;
-    right: 72px
+    left: 90px
 }
 .follow-button-wrapper {
     margin-bottom: 15px;
 //    background-color: #DBEAF4;
 }
-
 .follow-pane h2 {
-    font-size: 100%;
+    font-size: 94%;
     font-weight: normal;
     position: absolute;
     background-color: #f2f2f2;
@@ -319,16 +317,22 @@ h3.follow-button {
 .follow-pane tr {
     border-bottom: solid 1px lightgray;
 }
-.flag-bookmarks .flag {
+.flag-bookmarks .flag, .flag-follow-author .flag {
     border-radius: 20px;
     border: solid 1px #004e80;
     padding-left: 4px;
     padding-right: 4px;
-    margin-right: -6px;
     padding-bottom: 2px;
+    position: absolute;
+    right: 0px;
 }
-
-/*.view-story-links {
+.flag-bookmarks .flag {
+    margin-right: 2px;    
+}
+.flag-follow-author .flag {
+    margin-right: 1px;
+}
+    /*.view-story-links {
     border-left: 1px solid lightgray;
     background: white;        
 }*/

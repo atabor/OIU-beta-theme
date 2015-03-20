@@ -16,8 +16,15 @@
 //        $('.follow-pane').show ();
         $('.follow-button').click(function () {
         	$('.follow-pane').toggle(); 
+                $('.follow-help-anon').toggle();
         });
 
-    
+        $('.follow-help').hide ();
+        $('.follow-question-icon').click(function () {
+        	$('.follow-help').toggle(); 
+        });
+        $('.close-follow-help-text').click(function () {
+        	$('.follow-help').toggle(); 
+        });    
     });
 })(jQuery);

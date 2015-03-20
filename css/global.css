@@ -278,6 +278,11 @@ ul.nice-menu-main-menu a {
 
 /* follow panes */
 
+.follow-button-wrapper {
+    margin-bottom: 15px;
+    position: relative;
+//    background-color: #DBEAF4;
+}
 h3.follow-button {
     -moz-border-radius:20px;
     -webkit-border-radius:20px;
@@ -293,9 +298,8 @@ h3.follow-button {
     top: 12px;
     left: 90px
 }
-.follow-button-wrapper {
-    margin-bottom: 15px;
-//    background-color: #DBEAF4;
+.follow-help {
+    color: darkblue;
 }
 .follow-pane h2 {
     font-size: 94%;
@@ -318,6 +322,8 @@ h3.follow-button {
     border-bottom: solid 1px lightgray;
 }
 .flag-bookmarks .flag, .flag-follow-author .flag {
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
     border-radius: 20px;
     border: solid 1px #004e80;
     padding-left: 4px;
@@ -349,6 +355,13 @@ h3.follow-button {
     margin: 0px;
 }
 
+img.bear-story-icon {
+    -moz-border-radius:40px;
+    -webkit-border-radius:40px;
+    border-radius: 40px;
+    padding-top: 3px;
+    border: black solid 1px;
+}
 /* Comments   ***************/
 /* region for comments */
 .full-story-postscript-1 {

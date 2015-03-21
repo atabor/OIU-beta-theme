@@ -206,7 +206,26 @@ ul.nice-menu-main-menu a {
     border-style: none;
     background: #24446b;
     color: white;
-}    
+}
+
+/* search */    
+.block-search {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+/* subscribe */
+.subscribe-bear {
+    display: inline-block;
+    border: #0062A0 1px solid;
+    padding-right: 5px;
+    padding-left: 6px;
+//    padding-top: 3px;
+    margin-bottom: 20px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+}
 
 /****************************/
 /* Front Page ***************/

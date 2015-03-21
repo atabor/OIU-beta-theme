@@ -63,20 +63,28 @@ h1.site-name, h2.site-name {
 //    specifically text decoration and size for the login/register link
 
 .region-user-second li {
-	display: inline;
-	list-style-image: none;
-	list-style-type: none;
+    display: inline;
+    list-style-image: none;
+    list-style-type: none;
 /*	float: right;*/
-	}
+}
 .region-user-second div {
 //	padding-top: 5px;
-	}
+}
 div.toboggan-container {
     font-family: Lato;
     color: white;
     position: relative;
     // left: -20px;
-    }
+}
+.toboggan-login-link {
+    border: lightgrey solid 1px;
+    padding-right: 5px;
+    padding-left: 6px;
+    border-radius: 20px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+}    
 #toboggan-login {
     display: block;
     position: absolute;
@@ -84,26 +92,26 @@ div.toboggan-container {
     padding: 8px;
     border: 1px solid rgb(173, 216, 230);
     background: #24446b;
-    }
+}
 #toboggan-login .item-list li.first, #toboggan-login .item-list li.last {
     display: list-item;
     list-style-type: circle;    
-    }
+}
 .block-logintoboggan {
     padding-right: 33px;
     font-size: 85%;
-    }	
+}	
 
    
 /* main full site menu */  
 
 #region-branding .nice-menu-main-menu a {
     // font-size: 65%;
-    }
+}
 
 ul.nice-menu-main-menu li {
     margin-right: 10px;
-    }   
+}   
 
 /* --> main menu moved up into branding for now        
 .region-menu {

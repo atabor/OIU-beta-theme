@@ -216,15 +216,41 @@ ul.nice-menu-main-menu a {
 
 /* subscribe */
 .subscribe-bear {
+    margin-bottom: 20px;    
+}
+.subscribe-bear .newsletter-button {
     display: inline-block;
     border: #0062A0 1px solid;
+    color: #0062A0;
     padding-right: 5px;
     padding-left: 6px;
-//    padding-top: 3px;
-    margin-bottom: 20px;
     -moz-border-radius:20px;
     -webkit-border-radius:20px;
     border-radius: 20px;
+}
+.subscribe-bear .newsletter-icon {
+    position: absolute;
+    left: 96px;
+    top: 4px;
+}
+#mc_embed_signup {
+    background-color: white;
+    border: gray solid 1px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+#mc_embed_signup p {
+    margin-bottom: 0px;
+}
+#mc_embed_signup .indicates-required {
+    font-size: 80%;
+    color: red;
+}
+#mc_embed_signup .required {
+    color: red;
+}
+#mc_embed_signup label {
+    font-weight: normal;
 }
 
 /****************************/

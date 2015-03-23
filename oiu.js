@@ -26,5 +26,14 @@
         $('.close-follow-help-text').click(function () {
         	$('.follow-help').toggle(); 
         });    
+
+        $('#mc_embed_signup').hide ();
+        $('.newsletter-button-wrapper').click(function () {
+        	$('#mc_embed_signup').toggle(); 
+        });
+//        $('.newsletter-icon').click(function () {
+//        	$('#mc_embed_signup').toggle(); 
+//        });        
+
     });
 })(jQuery);

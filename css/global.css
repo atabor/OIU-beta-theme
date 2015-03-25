@@ -212,11 +212,56 @@ ul.nice-menu-main-menu a {
 .block-search {
     margin-top: 25px;
     margin-bottom: 5px;
+    position: relative;
 }
-
+input[type="text"]#edit-search-block-form--2 {
+  -webkit-appearance: none;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #0062A0;
+  color: #0062A0;
+  outline: 0;
+  padding: 2px 3px;
+  font-size: 13px;
+  font-family: 'Lato';
+  height: 32px;
+}
+input[type="submit"]#edit-submit--4 {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-clip: padding-box;
+    border-radius: 20px; 
+    //  background: #ddd url(../images/button.png) repeat-x;
+    //  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
+    //  background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
+    background-image: none;
+    border: 1px solid #0062A0;
+    //  border-color: #ddd #bbb #999;
+    cursor: pointer;
+    color: #0062A0;
+    font: inherit;
+    outline: 0;
+    overflow: hidden;
+    padding: 3px 10px 4px;
+    text-shadow: 0;
+    width: auto;
+    position: absolute;
+    *padding-top: 2px; /* IE7 */
+    *padding-bottom: 0px; /* IE7 */
+}
 /* subscribe */
 .subscribe-bear {
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    position: relative;
 }
 .subscribe-bear .newsletter-button {
     display: inline-block;
@@ -227,11 +272,13 @@ ul.nice-menu-main-menu a {
     -moz-border-radius:20px;
     -webkit-border-radius:20px;
     border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 .subscribe-bear .newsletter-icon {
     position: absolute;
-    left: 96px;
-    top: 4px;
+    left: 120px;
+    top: 6px;
 }
 #mc_embed_signup {
     background-color: white;

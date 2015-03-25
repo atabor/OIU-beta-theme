@@ -260,8 +260,8 @@ input[type="submit"]#edit-submit--4 {
 }
 /* subscribe */
 .subscribe-bear {
-    margin-bottom: 20px;
     position: relative;
+    margin-bottom: 20px;
 }
 .subscribe-bear .newsletter-button {
     display: inline-block;
@@ -277,7 +277,7 @@ input[type="submit"]#edit-submit--4 {
 }
 .subscribe-bear .newsletter-icon {
     position: absolute;
-    left: 120px;
+    left: 121px;
     top: 6px;
 }
 #mc_embed_signup {

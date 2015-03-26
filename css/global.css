@@ -355,6 +355,10 @@ input[type="submit"]#edit-submit--4 {
     font-family: 'Lato';
     font-weight: 500;
 }
+.group-banner img {
+    position: relative;
+    width: 100%;
+}
 
 /* story links */
 .story-page #page-title {

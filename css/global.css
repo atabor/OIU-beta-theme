@@ -336,6 +336,10 @@ input[type="submit"]#edit-submit--4 {
 /* Story    *****************/
 /****************************/
 
+.story-page #page-title {
+    font-size: 145%;
+} 
+
 /* sub brand */        
 #region-header-first, #region-header-second {
     font-family: 'Lato';
@@ -360,12 +364,20 @@ input[type="submit"]#edit-submit--4 {
     width: 100%;
 }
 
-/* story links */
-.story-page #page-title {
-    font-size: 145%;
-} 
-.region-story-links {
-//    background: #F2F2F2;
+/* story links - metadata */
+.metadata-button-wrapper {
+    background: #F2F2F2;
+    padding: 2px;
+}
+.metadata-button {
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    //border:1px solid black;
+    border:1px solid #004e80;
+    display:inline-block;
+    padding:6px 15px;
+    //color: #0062A0;
 }
 .metadata-pane,.author-pane,.follow-pane {
     background: #F2F2F2;

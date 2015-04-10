@@ -408,7 +408,7 @@ input[type="submit"]#edit-submit--4 {
 .follow-pane {
     background: #F2F2F2;
     padding: 2px;
-    padding-bottom: 6px;
+    padding-bottom: 9px;
     line-height: 1.1;
     color: #4d4d4d;
 }
@@ -483,12 +483,21 @@ h3.follow-button {
     margin: 0px;
 }
 
-img.bear-story-icon {
+.bear-story-button-wrapper {
+    position: relative;
+}
+h3.bear-story-button {
     -moz-border-radius:40px;
     -webkit-border-radius:40px;
     border-radius: 40px;
-    padding-top: 3px;
     border: black solid 1px;
+    display: inline-block;
+    padding: 5px 295px 5px 5px;
+}
+.bear-story-button-text {
+    position: absolute;
+    top: 28px;
+    left: 92px;
 }
 /* Comments   ***************/
 /* region for comments */

@@ -3,7 +3,7 @@
 
 	/* manage story and comment forms */
         $('.bear-story-form').hide();
-        $('.bear-story-icon').click(function () {
+        $('.bear-story-button').click(function () {
         	$('.bear-story-form').toggle(); 
         });
 

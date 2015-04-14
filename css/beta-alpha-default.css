@@ -12,11 +12,6 @@
 /****************************/
 /* override from global */
 /****************************/
-#region-content
-{	
-    background: #DBEAF4;
-    // light blue
-}
 .region-sidebar-first {
     font-size: 100%;
 }
@@ -31,12 +26,62 @@
 /****************************/
 /****************************/
 
-/* general elements */
+/*dimming all but content */
+//colors grey out in all but phone
 
-body {
-    //font-size: 75%;
-    // replaced with font-sizes dialed in below
+// ---> probably should grey all and change only content to black !!
+
+/*.region-sidebar-first, .bear-comment-form {
+    color: #4d4d4d;
+    // grey
+}*/
+
+.region-sidebar-first h2.block-title {
+//    color: red;
+    color: #4d4d4d;
+    font-weight: 500;
+    font-size: 120%;
 }
+.connected-story-pane h4 {
+    //color: red;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.bear-comment-form h2, .bear-comment-form h3 {
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.bear-comment-form label {
+    color: #4d4d4d;
+    font-weight: 500;
+}
+//.region-sidebar-first {
+//    color: #4d4d4d;
+//}
+.region-sidebar-first a,
+.connected-story-pane a {
+    color: #3381b3;
+    // greyed link color
+}
+/* story links - metadata */
+.metadata-button-wrapper {
+    color: #4d4d4d;    
+}
+.metadata-button-wrapper.open {
+    color: #4d4d4d;
+}
+.metadata-button-wrapper.closed {
+    color: #0062A0;
+}
+.copyright-holder {
+    color: #4d4d4d;
+}
+#zone-postscript {
+    color: #4d4d4d;
+    // grey
+}
+
+/* general elements */
 #region-content {
     float: right;
 }
@@ -45,9 +90,7 @@ body {
     font-size: large;
 }
 
-
 /* site name  */
-
 h1.site-name, h2.site-name {
     font-size: 125%;
 }

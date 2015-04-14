@@ -91,11 +91,6 @@ links       - #0062A0 - 0,98,160
     background: #DBEAF4;
     // light blue
 }
-/*#region-content
-{	
-    background: white;
-}*/
-
 #zone-menu,
 #zone-user,
 #zone-branding
@@ -103,7 +98,6 @@ links       - #0062A0 - 0,98,160
     background: #24446b;
     // dark blue
 }
-
 #zone-content,
 #region-sidebar-second,
 #zone-postscript,
@@ -111,6 +105,11 @@ links       - #0062A0 - 0,98,160
 {
     background: #F2F2F2;
     // light grey
+}
+#region-content
+{	
+    background: #DBEAF4;
+    // light blue
 }
 
 .story-related-story {
@@ -235,7 +234,32 @@ input[type="text"]#edit-search-block-form--2 {
   font-family: 'Lato';
   height: 32px;
 }
-input[type="submit"]#edit-submit--4 {
+/*input[type="submit"]#edit-submit--4 {
+    // this id is treacherous; get assigned on anonymous story page to something else
+    // fixed in block below - erase this next pass
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-clip: padding-box;
+    border-radius: 20px; 
+    //  background: #ddd url(../images/button.png) repeat-x;
+    //  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
+    //  background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
+    background-image: none;
+    border: 1px solid #0062A0;
+    //  border-color: #ddd #bbb #999;
+    cursor: pointer;
+    color: #0062A0;
+    font: inherit;
+    outline: 0;
+    overflow: hidden;
+    padding: 3px 10px 4px;
+    text-shadow: 0;
+    width: auto;
+    position: absolute;
+    *padding-top: 2px;  IE7 
+    *padding-bottom: 0px;  IE7 
+}*/
+input[type="submit"].custom-search-form.form-submit {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     background-clip: padding-box;
@@ -368,18 +392,14 @@ input[type="submit"]#edit-submit--4 {
 .metadata-button-wrapper {
     background: #F2F2F2;
     padding: 2px;
-    color: #4d4d4d;    
 }
-
 .metadata-button-wrapper.open {
     background: #F2F2F2;
     padding: 2px;
-    color: #4d4d4d;
 }
 .metadata-button-wrapper.closed {
     background: #DBEAF4;
     padding: 2px;
-    color: #0062A0;
 }
 .metadata-button {
     -moz-border-radius:20px;
@@ -498,6 +518,7 @@ h3.bear-story-button {
     position: absolute;
     top: 28px;
     left: 92px;
+    font-weight: 500;
 }
 /* Comments   ***************/
 /* region for comments */

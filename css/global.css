@@ -361,8 +361,11 @@ input[type="submit"].custom-search-form.form-submit {
 /****************************/
 
 .story-page #page-title {
-    font-size: 145%;
-} 
+    font-size: 165%;
+}
+.full-story-body {
+    font-size: 120px;
+}
 
 /* sub brand */        
 #region-header-first, #region-header-second {

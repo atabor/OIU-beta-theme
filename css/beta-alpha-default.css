@@ -93,6 +93,7 @@
 /* site name  */
 h1.site-name, h2.site-name {
     font-size: 125%;
+    padding-top: 20px;
 }
  /* site slogan - turn off with sub-branding */
 #region-branding h6 {
@@ -217,10 +218,12 @@ ul.nice-menu-main-menu li {
     margin: 0px;
     padding: 10px;
 }
+.main-image {
+    float: right;
+    padding-left: 8px;
+    padding-bottom: 5px; 
+}
 
-/*.story-page #page-title {
-    font-size: 145%;
-} */
 .byline {
     padding-bottom: 3px;
     font-size: 120%;

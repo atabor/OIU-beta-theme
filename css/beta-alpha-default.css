@@ -36,13 +36,24 @@
     // grey
 }*/
 
-.region-sidebar-first h2.block-title {
-//    color: red;
+
+// for some weird-ass reason, if this isn't here the next one doesn't work
+// and visa versa -- try removing the top one later and see if it's healed
+.region-sidebar-first h2 {
+    color: green;
+//    color: #4d4d4d;
+//    font-weight: 500;
+//    font-size: 110%;
+}
+.region-sidebar-first-inner h2 {
+//    color: blue;
     color: #4d4d4d;
     font-weight: 500;
-    font-size: 120%;
+    font-size: 110%;
+    text-decoration: underline;
 }
-.connected-story-pane h4 {
+
+connected-story-pane h4 {
     //color: red;
     color: #4d4d4d;
     font-weight: 500;

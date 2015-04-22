@@ -41,5 +41,24 @@
             }
         });
 
+       /* manage visibility panel */
+        $('.visibility-button').click(function () {
+            $('.visibility-pane').toggle(); 
+//            if ($('div.metadata-button-wrapper').hasClass("open")) {
+//                $('div.metadata-button-wrapper').removeClass("open");
+//            }
+//            if ($('div.metadata-button-wrapper').hasClass("closed")) {
+//                $('div.metadata-button-wrapper').removeClass("closed").addClass("open");
+//            } else {
+//                $('div.metadata-button-wrapper').addClass("closed");
+//            }
+        });
+        if ($('body').hasClass("bbbe-story")) {
+            $('.metadata-pane').toggle(); 
+            $('div.metadata-button-wrapper').addClass("closed");
+            $('.author-pane').toggle();
+            $('.follow-pane').toggle(); 
+        }
+        
     });
 })(jQuery);

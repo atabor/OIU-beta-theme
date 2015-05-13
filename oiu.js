@@ -1,31 +1,15 @@
 (function ($) {
     $(document).ready(function () {
 
-	/* manage story and comment forms */
-        $('.bear-story-form').hide();
-        $('.bear-story-button').click(function () {
-        	$('.bear-story-form').toggle(); 
-        });
-
-	/* manage subscriptions panel */
-        // $('.follow-pane').show ();
-        $('.follow-button').click(function () {
-            $('.follow-pane').toggle(); 
-            $('.follow-help-anon').toggle();
-        });
-        $('.follow-help').hide ();
-        $('.follow-question-icon').click(function () {
-            $('.follow-help').toggle(); 
-        });
-        $('.close-follow-help-text').click(function () {
-            $('.follow-help').toggle(); 
-        });    
-
+        /* **** left panel                      ***/
         /* manage newsletter signup */
         $('#mc_embed_signup').hide ();
         $('.newsletter-button-wrapper').click(function () {
             $('#mc_embed_signup').toggle(); 
         });
+
+
+        /* **** right  panel                      ***/
 
         /* manage metadata panel */
         $('.metadata-button').click(function () {
@@ -40,6 +24,35 @@
                 $('div.metadata-button-wrapper').addClass("closed");
             }
         });
+        
+        /* manage subscriptions panel */
+        // $('.follow-pane').show ();
+        $('.follow-button').click(function () {
+            $('.follow-pane').toggle(); 
+            $('.follow-help-anon').toggle();
+            if ($('div.follow-button-wrapper').hasClass("open")) {
+                $('div.follow-button-wrapper').removeClass("open");
+            }
+            if ($('div.follow-button-wrapper').hasClass("closed")) {
+                $('div.follow-button-wrapper').removeClass("closed").addClass("open");
+            } else {
+                $('div.follow-button-wrapper').addClass("closed");
+            }            
+        });
+        $('.follow-help').hide ();
+        $('.follow-question-icon').click(function () {
+            $('.follow-help').toggle(); 
+        });
+        $('.close-follow-help-text').click(function () {
+            $('.follow-help').toggle(); 
+        });    
+
+        if ($('body').hasClass("bbbe-story")) {
+            $('.metadata-pane').toggle(); 
+            $('div.metadata-button-wrapper').addClass("closed");
+            $('.author-pane').toggle();
+            $('.follow-pane').toggle(); 
+        }
 
        /* manage visibility panel */
         $('.visibility-button').click(function () {
@@ -53,12 +66,15 @@
 //                $('div.metadata-button-wrapper').addClass("closed");
 //            }
         });
-        if ($('body').hasClass("bbbe-story")) {
-            $('.metadata-pane').toggle(); 
-            $('div.metadata-button-wrapper').addClass("closed");
-            $('.author-pane').toggle();
-            $('.follow-pane').toggle(); 
-        }
+        
+        /* **** bottom stuff                      ***/
+        
+        /* manage story and comment forms */
+        $('.bear-story-form').hide();
+        $('.bear-story-button').click(function () {
+        	$('.bear-story-form').toggle(); 
+        });
+
         
     });
 })(jQuery);

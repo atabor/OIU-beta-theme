@@ -473,10 +473,18 @@ input[type="submit"].custom-search-form.form-submit {
     color: #4d4d4d;
 }
 .follow-button-wrapper {
+    background: #F2F2F2;
     margin-top: 10px;
-    margin-bottom: 15px;
+    padding-bottom: 2px;
+    margin-bottom: -9px;
     position: relative;
 //    background-color: #DBEAF4;
+}
+.follow-button-wrapper.open {
+    background: #F2F2F2;
+}
+.follow-button-wrapper.closed {
+    background: #DBEAF4;
 }
 h3.follow-button {
     -moz-border-radius:20px;

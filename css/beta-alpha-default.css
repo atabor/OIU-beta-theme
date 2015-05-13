@@ -307,26 +307,6 @@ ul.nice-menu-main-menu li {
 //    font-weight: 500;
 }
 
-/*****************************/
-/* Comments and Tell a Story */
-/*****************************/
-
-.comment-form .form-item-homepage,.form-item-subject {
-	display: none;
-	}
-
-/*img.bear-story-icon {
-    margin-left: 20px;
-}*/
-
-/**************************************/
-/* group page */
-/**************************************/
-.group-icon {
-    float: left;
-    padding-right: 8px;
-}
-
 /**************************************/
 /* footer menus */
 /**************************************/
@@ -343,3 +323,14 @@ ul.nice-menu-main-menu li {
     padding-left: 118px;
 }
         
+/*****************************/
+/* Comments and Tell a Story */
+/*****************************/
+
+.comment-form .form-item-homepage,.form-item-subject {
+	display: none;
+	}
+
+/*img.bear-story-icon {
+    margin-left: 20px;
+}*/

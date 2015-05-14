@@ -70,6 +70,7 @@
        /* manage story sequence panel */        
         if ($('div').hasClass("wtf")) {
             $('.story-sequence-pane').toggle(); 
+            $('.story-sequence-button').toggle();
         }
         
         /* **** bottom stuff                      ***/

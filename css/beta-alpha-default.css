@@ -76,20 +76,27 @@ connected-story-pane h4 {
 }
 /* story links - metadata */
 .metadata-button-wrapper {
-    color: #4d4d4d;    
+    color: #3381b3;    
 }
+/* --> gray/blue :: open // closed
 .metadata-button-wrapper.open {
     color: #4d4d4d;
 }
 .metadata-button-wrapper.closed {
     color: #0062A0;
 }
+*/
+.follow-button-wrapper {
+    color: #3381b3;
+}
+/*  => grey/blue :: open/closed version
 .follow-button-wrapper.open {
     color: #4d4d4d;
 }
 .follow-button-wrapper.closed {
     color: #0062A0;
 }
+*/
 .copyright-holder {
     color: #4d4d4d;
 }

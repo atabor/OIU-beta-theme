@@ -16,7 +16,7 @@ light blue  - #DBEAF4 - 219, 234, 244
 dark blue   - #24446b
 comment form? #C6D4E3
 grey        - #f2f2f2
-links       - #0062A0 - 0,98,160
+links       - #0062A0 - 0,98,160 :: reduced #3381b3
 */
 
 /****************************/
@@ -546,10 +546,11 @@ h3.follow-button {
     margin-right: 1px;
 }
 /* story links - story sequence */
-/*.metadata-button-wrapper {
+.story-sequence-button-wrapper {
     background: #F2F2F2;
-    padding: 2px;
+    padding-right: 6px;
 }
+/*
 .metadata-button-wrapper.open {
     background: #F2F2F2;
     padding: 2px;
@@ -573,13 +574,16 @@ h3.follow-button {
 .story-sequence-pane .ui-state-default {
     background: #F2F2F2;
     color: #4d4d4d;
+    border: 0px;
 }
 .story-sequence-pane .ui-state-active {
     background: #F2F2F2;
     color: #4d4d4d;
+    border: 0px;    
 }
 .story-sequence-pane a {
     color: #3381b3;
+    font-family: 'Lato';
 }
 
 /* misc lower page elements */

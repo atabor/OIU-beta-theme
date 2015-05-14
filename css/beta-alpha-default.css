@@ -84,6 +84,12 @@ connected-story-pane h4 {
 .metadata-button-wrapper.closed {
     color: #0062A0;
 }
+.follow-button-wrapper.open {
+    color: #4d4d4d;
+}
+.follow-button-wrapper.closed {
+    color: #0062A0;
+}
 .copyright-holder {
     color: #4d4d4d;
 }

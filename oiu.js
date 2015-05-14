@@ -67,6 +67,11 @@
 //            }
         });
         
+       /* manage story sequence panel */        
+        if ($('div').hasClass("wtf")) {
+            $('.story-sequence-pane').toggle(); 
+        }
+        
         /* **** bottom stuff                      ***/
         
         /* manage story and comment forms */

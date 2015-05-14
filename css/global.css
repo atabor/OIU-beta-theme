@@ -504,6 +504,10 @@ h3.follow-button {
 .follow-help {
     color: darkblue;
 }
+.follow-help-anon {
+    padding-top: 8px;
+}
+
 .follow-pane h2 {
     font-size: 94%;
     font-weight: normal;
@@ -540,6 +544,42 @@ h3.follow-button {
 }
 .flag-follow-author .flag {
     margin-right: 1px;
+}
+/* story links - story sequence */
+/*.metadata-button-wrapper {
+    background: #F2F2F2;
+    padding: 2px;
+}
+.metadata-button-wrapper.open {
+    background: #F2F2F2;
+    padding: 2px;
+}
+.metadata-button-wrapper.closed {
+    background: #DBEAF4;
+    padding: 2px;
+}
+.metadata-button {
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    border:1px solid #004e80;
+    display:inline-block;
+    padding:6px 15px;
+}
+*/
+.story-sequence-pane {
+    margin-bottom: 10px;
+}
+.story-sequence-pane .ui-state-default {
+    background: #F2F2F2;
+    color: #4d4d4d;
+}
+.story-sequence-pane .ui-state-active {
+    background: #F2F2F2;
+    color: #4d4d4d;
+}
+.story-sequence-pane a {
+    color: #3381b3;
 }
 
 /* misc lower page elements */

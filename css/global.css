@@ -48,7 +48,8 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
     float: none;
 }*/
 
-.responsive-layout-mobile .region-story-links,
+//.responsive-layout-mobile .region-story-links,
+.responsive-layout-mobile .view-story-links,
 .responsive-layout-mobile .story-short-form img,
 .responsive-layout-mobile .full-story-postscript-1,
 .responsive-layout-mobile .full-story-postscript-2,
@@ -59,6 +60,16 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 }
 .responsive-layout-mobile img.bear-story-icon {
     width: 100%;
+}
+.responsive-layout-mobile .bear-comment-form,
+.responsive-layout-mobile .bear-story-button-wrapper,
+.responsive-layout-mobile .full-story-postscript-1 {
+    width: 300px;
+}
+.responsive-layout-mobile .form-text,
+.responsive-layout-mobile .form-textarea,
+{
+    width: 290px;
 }
 
 .responsive-layout-mobile .story-short-form,
@@ -234,31 +245,6 @@ input[type="text"]#edit-search-block-form--2 {
   font-family: 'Lato';
   height: 32px;
 }
-/*input[type="submit"]#edit-submit--4 {
-    // this id is treacherous; get assigned on anonymous story page to something else
-    // fixed in block below - erase this next pass
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    background-clip: padding-box;
-    border-radius: 20px; 
-    //  background: #ddd url(../images/button.png) repeat-x;
-    //  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
-    //  background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
-    background-image: none;
-    border: 1px solid #0062A0;
-    //  border-color: #ddd #bbb #999;
-    cursor: pointer;
-    color: #0062A0;
-    font: inherit;
-    outline: 0;
-    overflow: hidden;
-    padding: 3px 10px 4px;
-    text-shadow: 0;
-    width: auto;
-    position: absolute;
-    *padding-top: 2px;  IE7 
-    *padding-bottom: 0px;  IE7 
-}*/
 input[type="submit"].custom-search-form.form-submit {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -277,7 +263,7 @@ input[type="submit"].custom-search-form.form-submit {
     overflow: hidden;
     padding: 3px 10px 4px;
     text-shadow: 0;
-    width: auto;
+//    width: auto;
     position: absolute;
     *padding-top: 2px; /* IE7 */
     *padding-bottom: 0px; /* IE7 */
@@ -364,7 +350,7 @@ input[type="submit"].custom-search-form.form-submit {
     font-size: 165%;
 }
 .full-story-body {
-    font-size: 120px;
+    font-size: 120%;
 }
 
 /* sub brand */        
@@ -594,9 +580,14 @@ h3.follow-button {
 .pane-node-creative-commons-bug h2 {
     margin: 0px;
 }
+.comment-form .form-item-homepage,.form-item-subject {
+    display: none;
+}
 
 .bear-story-button-wrapper {
     position: relative;
+    float: left;
+    // float to position this for phone
 }
 h3.bear-story-button {
     -moz-border-radius:40px;
@@ -604,7 +595,7 @@ h3.bear-story-button {
     border-radius: 40px;
     border: black solid 1px;
     display: inline-block;
-    padding: 5px 295px 5px 5px;
+    padding: 6px 210px 5px 0px; //overridden at default
 }
 .bear-story-button-text {
     position: absolute;

@@ -22,6 +22,9 @@
 .story-short-form {
     float: left;
 }
+h3.bear-story-button {
+    padding: 5px 295px 5px 5px;
+}
 
 /****************************/
 /****************************/
@@ -335,15 +338,4 @@ ul.nice-menu-main-menu li {
 .region-postscript-first {
     padding-left: 118px;
 }
-        
-/*****************************/
-/* Comments and Tell a Story */
-/*****************************/
-
-.comment-form .form-item-homepage,.form-item-subject {
-	display: none;
-	}
-
-/*img.bear-story-icon {
-    margin-left: 20px;
-}*/
+       

@@ -535,6 +535,7 @@ h3.follow-button {
 .story-sequence-button-wrapper {
     background: #F2F2F2;
     padding-right: 6px;
+    text-align: center;
 }
 /*
 .metadata-button-wrapper.open {
@@ -570,6 +571,16 @@ h3.follow-button {
 .story-sequence-pane a {
     color: #3381b3;
     font-family: 'Lato';
+}
+.story-sequence-pane .views-field-field-icon {
+    float: left;
+    padding-right: 3px;
+}
+.story-sequence-pane .views-field-body span {
+    font-size: 90%;
+    font-family: 'Lato';
+    color: #4d4d4d;
+    line-height: 21px;
 }
 
 /* misc lower page elements */

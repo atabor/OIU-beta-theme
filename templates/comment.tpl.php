@@ -6,7 +6,7 @@
       array('!username' => $author, '!datetime' => '<time datetime="' . $datetime . '">' . $created . '</time>'));
     ?>
     
-  <?php if (FALSE): ?>  
+  <?php if (TRUE): ?>  
   <?php print $picture; ?>
   <?php endif; ?>
 

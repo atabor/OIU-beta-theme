@@ -27,6 +27,9 @@
         
         /* manage subscriptions panel */
         // $('.follow-pane').show ();
+        if ($('body').hasClass("not-logged-in")) {
+            $('div.follow-button-wrapper').addClass("closed");
+        }
         $('.follow-button').click(function () {
             $('.follow-pane').toggle(); 
             $('.follow-help-anon').toggle();

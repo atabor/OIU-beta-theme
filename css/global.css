@@ -67,7 +67,7 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
     width: 300px;
 }
 .responsive-layout-mobile .form-text,
-.responsive-layout-mobile .form-textarea,
+.responsive-layout-mobile .form-textarea
 {
     width: 290px;
 }
@@ -605,6 +605,7 @@ h3.bear-story-button {
 }
 /* Comments   ***************/
 /* region for comments */
+
 .full-story-postscript-1 {
     background: #C6D4E3;
     padding-left: 6px;
@@ -615,6 +616,11 @@ h3.bear-story-button {
     margin-bottom: 4px;
     background-color: #DBEAF4;    
 }
+.comment .user-picture {
+    float: left;
+    padding-right: 4px;
+}
+
 .bear-comment-form {
     padding-left: 6px;
 }
@@ -623,6 +629,7 @@ h3.bear-story-button {
 }
 
 .comment-form .filter-wrapper {
+    display: none;
     padding: 0em;
     }
 .comment-form .form-item-mail,.form-item-name {

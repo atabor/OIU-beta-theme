@@ -67,7 +67,7 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
     width: 300px;
 }
 .responsive-layout-mobile .form-text,
-.responsive-layout-mobile .form-textarea,
+.responsive-layout-mobile .form-textarea
 {
     width: 290px;
 }
@@ -78,6 +78,9 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 }
 .responsive-layout-mobile .full-story-postscript-1 {
     margin-bottom: 8px;
+}
+.not-logged-in.responsive-layout-mobile .toboggan-login-link {
+    font-size: 145%;
 }
 
 /****************************/
@@ -192,6 +195,20 @@ h1.site-name, h2.site-name {
     background: #24446b;
     font-family: 'Lato';	
 }
+div.toboggan-container {
+    font-family: Lato;
+    color: white;
+    position: relative;
+    // left: -20px;
+}
+.toboggan-login-link {
+    border: lightgrey solid 1px;
+    padding-right: 5px;
+    padding-left: 6px;
+    border-radius: 20px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+}   
 
 /* main menu */        
 #region-menu a {

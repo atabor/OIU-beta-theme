@@ -468,13 +468,6 @@ input[type="submit"].custom-search-form.form-submit {
 }
 
 /* follow panes */
-.follow-pane {
-    background: #F2F2F2;
-    padding: 2px;
-    padding-bottom: 9px;
-    line-height: 1.1;
-    color: #4d4d4d;
-}
 .follow-button-wrapper {
     background: #F2F2F2;
     margin-top: 10px;
@@ -510,15 +503,26 @@ h3.follow-button {
 .follow-help-anon {
     padding-top: 8px;
 }
-
+.follow-pane {
+    background: #F2F2F2;
+    padding: 2px;
+    padding-bottom: 9px;
+    line-height: 1.1;
+    color: #4d4d4d;
+    position: relative;
+}
+/*.follow-pane-people {
+    background-color: pink;
+}*/
 .follow-pane h2 {
     font-size: 94%;
     font-weight: normal;
-    position: absolute;
+//    position: absolute;
     background-color: #f2f2f2;
     top: -11px;
     margin-left: 10px;
-    padding-right: 5px;    
+    padding-right: 5px;
+    margin-top: -10px;
 }
 .follow-pane-list {
     margin-bottom: 5px;

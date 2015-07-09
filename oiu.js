@@ -72,7 +72,9 @@
             $('.story-sequence-pane').toggle(); 
             $('.story-sequence-button').toggle();
         }
-        
+        if (!$('div').hasClass("story-sequence-pane")) {
+            $('.story-sequence-button').hide();
+        }        
         /* **** bottom stuff                      ***/
         
         /* manage story and comment forms */

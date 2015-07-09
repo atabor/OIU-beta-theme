@@ -616,6 +616,9 @@ h3.follow-button {
     display: none;
 }
 
+/* ************************ */
+/* Start a Story from panes */
+
 .bear-story-button-wrapper {
     position: relative;
     float: left;
@@ -635,6 +638,20 @@ h3.bear-story-button {
     left: 92px;
     font-weight: 500;
 }
+.bear-story-form legend,
+.bear-story-form .filter-wrapper,
+.bear-story-form .description {
+    display: none;
+}
+.bear-story-form .form-text,
+.bear-story-form #edit-field-main-image,
+.bear-story-form #edit-field-attachment {
+    width: 75%;
+}
+.bear-story-form #cke_edit-body-und-0-value {
+    margin-left: -54px;
+}
+
 /* Comments   ***************/
 /* region for comments */
 .full-story-postscript-1 {

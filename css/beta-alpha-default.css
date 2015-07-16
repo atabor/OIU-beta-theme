@@ -25,6 +25,10 @@
 h3.bear-story-button {
     padding: 5px 295px 5px 5px;
 }
+.bear-story-form #cke_edit-body-und-0-value {
+    margin-left: -54px;
+//    width: 100%
+}
 
 /****************************/
 /****************************/

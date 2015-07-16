@@ -27,6 +27,7 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 
 /****************************/
 /* phone only - some overwritten at default
+/*    and some are added in outside the section and below the non-mobile settting
 /****************************/
 
 .responsive-layout-mobile .featured-links {
@@ -69,9 +70,12 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 .responsive-layout-mobile .form-text,
 .responsive-layout-mobile .form-textarea
 {
+    //impacts comments form and story form
     width: 290px;
 }
-
+.responsive-layout-mobile .form-item {
+    width: 290px
+}
 .responsive-layout-mobile .story-short-form,
 .responsive-layout-mobile .full-story-postscript-2 {
     float: none;
@@ -124,6 +128,10 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 {	
     background: #DBEAF4;
     // light blue
+}
+.responsive-layout-mobile #region-content {
+   margin: 0px;
+   padding-right: 2px;
 }
 
 .story-related-story {
@@ -379,6 +387,10 @@ input[type="submit"].custom-search-form.form-submit {
  //   margin-right: 0px;
  //   margin-left: 8px;
 }
+.responsive-layout-mobile #region-header-first {
+    background: #f2f2f2;
+    margin: 0px;
+}
 #region-header-first h2 {
 //    margin-bottom: 0px;
 //    margin-top: 10px;
@@ -616,6 +628,9 @@ h3.follow-button {
     display: none;
 }
 
+/* ************************ */
+/* Start a Story from panes */
+
 .bear-story-button-wrapper {
     position: relative;
     float: left;
@@ -635,6 +650,41 @@ h3.bear-story-button {
     left: 92px;
     font-weight: 500;
 }
+// this hides what I want on test
+.bear-story-form fieldset.group-basic {
+    // this doesn't work but the one below does; not sure which classes are needed in that string
+    margin-bottom: -10px;
+}
+.bear-story-form .collapsible.required-fields.group-basic.field-group-htab.form-wrapper {
+    margin-bottom: -10px;
+}
+.bear-story-form legend {
+    display: none
+}
+.bear-story-form .field-name-field-main-image .description {
+    display: none;
+}
+.bear-story-form .filter-wrapper {
+    display: none;
+}
+.bear-story-form h2.element-invisible {
+    display: none;
+}
+.bear-story-form .form-actions {
+    margin-top: 0;
+}
+// added to make test-panth work
+/*.bear-story-form .field-name-field-attachment .fieldset-description {
+    display: none;
+}*/
+.bear-story-form #edit-field-main-image,
+.bear-story-form #edit-field-attachment {
+    width: 70%;
+}
+/*#cke_edit-body-und-0-value iframe {
+    width: 70%;
+}*/
+
 /* Comments   ***************/
 /* region for comments */
 
@@ -667,20 +717,37 @@ h3.bear-story-button {
 .comment-form .form-item-mail,.form-item-name {
     margin-top: .2em;
     margin-bottom: .2em;
-    }	
+}	
 .comment-form .form-actions {
     margin-top: -.5em;
-    }
+}
 .comment-form #edit-submit {
     background: url();
     border: 0px;
 /*	margin-left: 14px;*/
     color: #0062A0;
     font-size: medium;
-    }	
+}	
 .comment-form #edit-author--2,
 #edit-comment-body-und-0-format-help,
 #edit-comment-body-und-0-format-guidelines, 
 #edit-comment-body-und-0-format {
     display:none;
-    }
+}
+.comment-form #edit-author--4 {
+    // reducing comment form to simple text box for authorized users
+    // some weirdness - display none doesn't work even though red does!
+    //display: none
+    background: red;
+    // so used absolute positioning
+/*    position: absolute;
+    right: -500px;*/
+//which also failed and turned off the red
+}
+
+#edit-author--4 a.username {
+    display: none;
+}
+#edit-author--4 label {
+    display: none;
+}

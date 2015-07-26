@@ -84,6 +84,10 @@
         $('.bear-story-form').hide();
         $('.bear-story-button').click(function () {
         	$('.bear-story-form').toggle(); 
+                $('.video-upload-help').hide();
+        });
+        $('.video-upload-question-icon').click(function () {
+        	$('.video-upload-help').toggle(); 
         });
 
         

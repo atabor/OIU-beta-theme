@@ -670,6 +670,10 @@ h3.bear-story-button {
 .bear-story-form h2.element-invisible {
     display: none;
 }
+.video-upload-question-icon {
+    width: 15px;
+    padding-right: 5px;
+}
 .bear-story-form .form-actions {
     margin-top: 0;
 }

@@ -634,6 +634,7 @@ h3.follow-button {
 .bear-story-button-wrapper {
     position: relative;
     float: left;
+    
     // float to position this for phone
 }
 h3.bear-story-button {
@@ -647,7 +648,7 @@ h3.bear-story-button {
 .bear-story-button-text {
     position: absolute;
     top: 28px;
-    left: 92px;
+    left: 140px;
     font-weight: 500;
 }
 // this hides what I want on test

@@ -25,6 +25,12 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 /****************************/
 /****************************/
 
+.version-4 .region-read-more-top-bar .related-story {
+    float: left;
+    width: 14%;
+}
+
+
 /****************************/
 /* phone only - some overwritten at default
 /*    and some are added in outside the section and below the non-mobile settting

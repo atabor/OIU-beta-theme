@@ -259,6 +259,10 @@ ul.nice-menu-main-menu li {
     padding-bottom: 5px; 
 }
 
+.image-full-width {
+    width: 95%;
+}
+
 .byline {
     padding-bottom: 3px;
     font-size: 120%;

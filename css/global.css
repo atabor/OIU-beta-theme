@@ -25,10 +25,59 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 /****************************/
 /****************************/
 
+/* working on story page v4 with tabbed panels */
 .version-4 .region-read-more-top-bar .related-story {
     float: left;
     width: 14%;
 }
+
+/* fixing for mobile */
+/* main content doesn't take up full width even though right sidebar disappears */
+.responsive-layout-mobile .story-short-form {
+    width: 100%;
+    padding-left: 5px;
+}
+.responsive-layout-mobile .panels-flexible-18 .panels-flexible-region {
+    width: 100%;
+    padding-left: 4px;
+/*    background-color: pink;*/
+}
+/*.region-story-links {
+    background-color: yellow;
+    color: red;
+}*/
+/*.responsive-layout-mobile .main-image {
+    width: 100%;
+    height: 100%;
+    border: solid red 5px;
+}*/
+/*.field-name-field-main-image {
+    border: solid green 5px;
+}*/
+
+/* site teaser project */
+.site-teaser {
+    color: white;
+    background-color: #24446b;
+    padding: 25px;
+    text-align: center;
+}
+.site-teaser h3 {
+    font-size: 235%;
+}
+.teaser-large {
+    font-size: 170%;
+}
+.teaser-medium {
+    font-size: 125%;
+}
+.teaser-small {
+    font-size: 110%;
+}
+.site-teaser a {
+    color: lightblue;
+}
+
 
 
 /****************************/
@@ -51,9 +100,7 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
     visibility: hidden;
     height: 0;
 }
-/*.story-short-form {
-    float: none;
-}*/
+
 
 //.responsive-layout-mobile .region-story-links,
 .responsive-layout-mobile .view-story-links,

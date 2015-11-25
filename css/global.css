@@ -64,6 +64,51 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 /*    border: solid red 5px;*/
 }
 
+/* beer button project */
+.beer-wrapper {
+    position: relative;
+}
+.beer-wrapper input {
+    padding: 2px
+}
+.beer-wrapper p {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.beer-button {
+    display: inline-block;
+    width: 95%;
+    border: black 1px solid;
+    padding-right: 5px;
+    padding-left: 6px;
+    -moz-border-radius:40px;
+    -webkit-border-radius:40px;
+    border-radius: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+}
+.beer-button-text {
+    position: absolute;
+    top: 28px;
+    left: 160px;
+    color: black;
+    font-weight: 500;
+}
+.beer-form form {
+    font-weight: bold;
+}
+.beer-form {
+    border: lightgray 1px solid;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;    
+}
+
+/* explore (sections) project */
+h4.explore {
+    margin-bottom: 2px;
+}
 
 /* site teaser project */
 .site-teaser {
@@ -761,7 +806,7 @@ h3.bear-story-button {
 /* region for comments */
 
 .full-story-postscript-1 {
-    background: #C6D4E3;
+    background: #DBEAF4;
     padding-left: 6px;
     // border: solid 1px #B3B3B3;
 }

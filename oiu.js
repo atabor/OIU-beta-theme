@@ -12,6 +12,9 @@
         /* **** right  panel                      ***/
 
         /* manage metadata panel */
+        $('.metadata-pane').toggle(); 
+        $('.author-pane').toggle();
+        $('div.metadata-button-wrapper').addClass("closed");
         $('.metadata-button').click(function () {
             $('.metadata-pane').toggle(); 
             $('.author-pane').toggle();
@@ -30,6 +33,9 @@
         if ($('body').hasClass("not-logged-in")) {
             $('div.follow-button-wrapper').addClass("closed");
         }
+        $('.follow-pane').toggle(); 
+        $('.follow-help-anon').toggle();        
+        $('div.follow-button-wrapper').addClass("closed");
         $('.follow-button').click(function () {
             $('.follow-pane').toggle(); 
             $('.follow-help-anon').toggle();
@@ -80,7 +86,7 @@
         }        
         /* **** bottom stuff                      ***/
         
-        /* manage story and comment forms */
+        /* manage story, beer, and comment forms */
         $('.bear-story-form').hide();
         $('.bear-story-button').click(function () {
         	$('.bear-story-form').toggle(); 
@@ -89,6 +95,12 @@
         $('.video-upload-question-icon').click(function () {
         	$('.video-upload-help').toggle(); 
         });
+
+        $('.beer-form').hide();
+        $('.beer-button').click(function () {
+        	$('.beer-form').toggle(); 
+        });        
+        
 
         
     });

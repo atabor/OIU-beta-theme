@@ -92,7 +92,7 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
     position: absolute;
     top: 28px;
     left: 160px;
-    color: black;
+    color: #0062A0;
     font-weight: 500;
 }
 .beer-form form {
@@ -494,7 +494,6 @@ input[type="submit"].custom-search-form.form-submit {
 #region-header-first, #region-header-second {
     font-family: 'Lato';
     letter-spacing: 0px;
-//    background: #C6D4E3;
     background: #DBEAF4;
  //   margin-right: 0px;
  //   margin-left: 8px;
@@ -598,7 +597,7 @@ input[type="submit"].custom-search-form.form-submit {
     padding-bottom: 2px;
     margin-bottom: -9px;
     position: relative;
-//    background-color: #DBEAF4;
+    background-color: #DBEAF4;
 }
 .follow-button-wrapper.open {
     background: #F2F2F2;

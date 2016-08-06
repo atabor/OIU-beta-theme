@@ -83,7 +83,7 @@ connected-story-pane h4 {
 }
 /* story links - metadata */
 .metadata-button-wrapper {
-    color: #3381b3;    
+    color: #666;    
 }
 /* --> gray/blue :: open // closed
 .metadata-button-wrapper.open {
@@ -94,7 +94,7 @@ connected-story-pane h4 {
 }
 */
 .follow-button-wrapper {
-    color: #3381b3;
+    color: #666;
 }
 /*  => grey/blue :: open/closed version
 .follow-button-wrapper.open {
@@ -126,6 +126,12 @@ h1.site-name, h2.site-name {
     font-size: 125%;
     padding-top: 20px;
 }
+.story-page h1.site-name,
+.story-page h2.site-name {
+    font-size: 125%;
+    padding-top: 0px;
+}
+ 
  /* site slogan - turn off with sub-branding */
 #region-branding h6 {
     font-size: 175%;
@@ -233,6 +239,15 @@ ul.nice-menu-main-menu li {
     padding-right: 8px;
     padding-left: 5px;
 }
+.story-page #region-header-first h2 {
+    position: absolute;
+//    z-index: 1;
+    top: -47px;
+    color: #e2e2e2;
+    background-color: rgba(128,128,128,.0);
+    padding-right: 8px;
+    padding-left: 5px;
+}
 .group-title {
     position: absolute;
     z-index: 1;
@@ -299,12 +314,12 @@ ul.nice-menu-main-menu li {
 .view-story-links a:link {
     text-decoration: underline;
 }
-.author-pane {
+.oiu-author-pane {
     margin-bottom: 5px; 
     padding-left: 2px;
 //    background-color: #F2F2F2;
 }
-.author-pane a:link {
+.oiu-author-pane a:link {
     text-decoration: underline;
 }  
 .author-icon {

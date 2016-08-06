@@ -51,6 +51,14 @@ ul.nice-menu-main-menu {
     left: -229px;
     top: 20px;        
     }
+.not-logged-in.story-page ul.nice-menu-main-menu {
+    left: -218px;
+    top: 20px;        
+}
+.logged-in.story-page ul.nice-menu-main-menu {
+    left: -229px;
+    top: 0px;        
+}    
 .front.not-logged-in ul.nice-menu-main-menu {
     left: -159px;
     top: 36px;        

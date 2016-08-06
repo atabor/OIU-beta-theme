@@ -25,6 +25,11 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 /****************************/
 /****************************/
 
+/* 2016-0414 forum stuff */
+#forum-statistics {
+    display:none;
+}
+
 /* working on story page v4 with tabbed panels */
 .version-4 .region-read-more-top-bar .related-story {
     float: left;
@@ -212,13 +217,13 @@ h4.explore {
 #zone-postscript-wrapper,
 #zone-footer-wrapper
  {
-    background: black;
+    //background: black;
   }
 
 #zone-header,
 #zone-preface
 {
-    background: #DBEAF4;
+    //background: #DBEAF4;
     // light blue
 }
 #zone-menu,
@@ -233,12 +238,12 @@ h4.explore {
 #zone-postscript,
 #zone-footer 
 {
-    background: #F2F2F2;
+    // background: #F2F2F2;
     // light grey
 }
 #region-content
 {	
-    background: #DBEAF4;
+    //background: #DBEAF4;
     // light blue
 }
 .responsive-layout-mobile #region-content {
@@ -374,8 +379,10 @@ input[type="text"]#edit-search-block-form--2 {
   background-clip: padding-box;
   background-color: #fff;
   border: 1px solid;
-  border-color: #0062A0;
-  color: #0062A0;
+/*  border-color: #0062A0;
+  color: #0062A0;*/
+  border-color: #666;
+  color: #666;
   outline: 0;
   padding: 2px 3px;
   font-size: 13px;
@@ -412,8 +419,10 @@ input[type="submit"].custom-search-form.form-submit {
 }
 .subscribe-bear .newsletter-button {
     display: inline-block;
-    border: #0062A0 1px solid;
-    color: #0062A0;
+/*    border: #0062A0 1px solid;
+    color: #0062A0;*/
+    border: #666 1px solid;
+    color: #666;
     padding-right: 5px;
     padding-left: 6px;
     -moz-border-radius:20px;
@@ -494,8 +503,7 @@ input[type="submit"].custom-search-form.form-submit {
 #region-header-first, #region-header-second {
     font-family: 'Lato';
     letter-spacing: 0px;
-//    background: #C6D4E3;
-    background: #DBEAF4;
+    //background: #DBEAF4;
  //   margin-right: 0px;
  //   margin-left: 8px;
 }
@@ -557,29 +565,31 @@ input[type="submit"].custom-search-form.form-submit {
 
 /* story links - metadata */
 .metadata-button-wrapper {
-    background: #F2F2F2;
+//    background: #F2F2F2;
     padding: 2px;
 }
 .metadata-button-wrapper.open {
-    background: #F2F2F2;
+//    background: #F2F2F2;
     padding: 2px;
 }
 .metadata-button-wrapper.closed {
-    background: #DBEAF4;
+    //background: #DBEAF4;
     padding: 2px;
 }
 .metadata-button {
     -moz-border-radius:20px;
     -webkit-border-radius:20px;
     border-radius: 20px;
-    border:1px solid #004e80;
+    /*border:1px solid #004e80;*/
+    border: 1px solid #666;
     display:inline-block;
     padding:6px 15px;
 }
-.metadata-pane,.author-pane {
+.metadata-pane,.oiu-author-pane {
     background: #F2F2F2;
     padding-left: 10px;
-    color: #4d4d4d;
+    /*color: #4d4d4d;*/
+    color: #666;
 }
 .metadata-pane {
     line-height: 1.1;
@@ -593,7 +603,7 @@ input[type="submit"].custom-search-form.form-submit {
 
 /* follow panes */
 .follow-button-wrapper {
-    background: #F2F2F2;
+//    background: #F2F2F2;
     margin-top: 10px;
     padding-bottom: 2px;
     margin-bottom: -9px;
@@ -601,20 +611,22 @@ input[type="submit"].custom-search-form.form-submit {
 //    background-color: #DBEAF4;
 }
 .follow-button-wrapper.open {
-    background: #F2F2F2;
+//    background: #F2F2F2;
 }
 .follow-button-wrapper.closed {
-    background: #DBEAF4;
+    //background: #DBEAF4;
 }
 h3.follow-button {
     -moz-border-radius:20px;
     -webkit-border-radius:20px;
     border-radius: 20px;
     //border:1px solid black;
-    border:1px solid #004e80;
+    /*border:1px solid #004e80;*/
+    border:1px solid #666;
     display:inline-block;
     padding:6px 15px;
-    color: #0062A0;
+/*    color: #0062A0;*/
+    color: #666;
 }
 .follow-question-icon {
     position: absolute;
@@ -806,14 +818,14 @@ h3.bear-story-button {
 /* region for comments */
 
 .full-story-postscript-1 {
-    background: #DBEAF4;
+    //background: #DBEAF4;
     padding-left: 6px;
     // border: solid 1px #B3B3B3;
 }
 .comment {
     margin-left: 7px;
     margin-bottom: 4px;
-    background-color: #DBEAF4;    
+    //background-color: #DBEAF4;    
 }
 .comment .user-picture {
     float: left;

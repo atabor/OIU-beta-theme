@@ -1,6 +1,6 @@
 (function ($) {
     $(document).ready(function () {
-
+        
         /* **** left panel                      ***/
         /* manage newsletter signup */
         $('#mc_embed_signup').hide ();
@@ -13,11 +13,11 @@
 
         /* manage metadata panel */
         $('.metadata-pane').toggle(); 
-        $('.author-pane').toggle();
+        $('.oiu-author-pane').toggle();
         $('div.metadata-button-wrapper').addClass("closed");
         $('.metadata-button').click(function () {
             $('.metadata-pane').toggle(); 
-            $('.author-pane').toggle();
+            $('.oiu-author-pane').toggle();
             if ($('div.metadata-button-wrapper').hasClass("open")) {
                 $('div.metadata-button-wrapper').removeClass("open");
             }
@@ -59,7 +59,7 @@
         if ($('body').hasClass("bbbe-story")) {
             $('.metadata-pane').toggle(); 
             $('div.metadata-button-wrapper').addClass("closed");
-            $('.author-pane').toggle();
+            $('.oiu-author-pane').toggle();
             $('.follow-pane').toggle(); 
         }
 
@@ -101,7 +101,14 @@
         	$('.beer-form').toggle(); 
         });        
         
-
+        /* collision between author-pane module and my author-pane 
+         if ($('body').hasClass("node-type-forum")) {
+            $('.author-pane').show();
+        }
+         if ($('div').hasClass("forum-post-wrapper")) {
+            $('.author-pane').show();
+        }        
+**/
         
     });
 })(jQuery);

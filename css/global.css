@@ -597,6 +597,27 @@ input[type="submit"].custom-search-form.form-submit {
 .metadata-pane a {
     color: #3381b3;
 }
+.metadata-pane.closed-pane {
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 5s, opacity 4s ease-in;
+}
+.metadata-pane.open-pane {
+    opacity: 1;
+    max-height: 5000px;
+}
+.oiu-author-pane.closed-pane {
+    opacity: 0;
+    max-height: 2px;
+    transition: max-height 5s, opacity 4s ease-in;
+}
+.oiu-author-pane.closed-pane .author-icon {
+    display: none;
+}
+.oiu-author-pane.open-pane {
+    opacity: 1;
+    max-height: 61px;
+}
 .metadata-pane ul li {
     margin: 0 0 0.25em 0.3em;
 }

@@ -12,12 +12,15 @@
         /* **** right  panel                      ***/
 
         /* manage metadata panel */
+        
         $('.metadata-pane').addClass("open-pane"); 
+//        $('.metadata-pane').removeClass("closed-pane").addClass("open-pane");
         $('.oiu-author-pane').addClass("open-pane");
+//        $('.oiu-author-pane').toggle();
         $('div.metadata-button-wrapper').addClass("closed");
         $('.metadata-button').click(function () {
 //            $('.metadata-pane').toggle(); 
-            $('.oiu-author-pane').toggle();
+//            $('.oiu-author-pane').toggle();
             if ($('div.metadata-button-wrapper').hasClass("open")) {
                 $('div.metadata-button-wrapper').removeClass("open");
             }
@@ -28,24 +31,26 @@
             }
             
             if ($('div.metadata-button-wrapper').hasClass("closed")) {
+
                 if ($('.metadata-pane').hasClass("open-pane")) {
                     $('.metadata-pane').removeClass("open-pane");
                 }
-//                if ($('.oiu-author-pane').hasClass("open-pane")) {
-//                    $('.oiu-author-pane').removeClass("open-pane");
-//                }
                 $('.metadata-pane').addClass("closed-pane");
-//                $('.oiu-author-pane').addClass("closed-pane");
+
+                if ($('.oiu-author-pane').hasClass("open-pane")) {
+                    $('.oiu-author-pane').removeClass("open-pane");
+                }
+                $('.oiu-author-pane').addClass("closed-pane");
             }
             if ($('div.metadata-button-wrapper').hasClass("open")) {
                 if ($('.metadata-pane').hasClass("closed-pane")) {
                     $('.metadata-pane').removeClass("closed-pane");
                 }
-//                if ($('.oiu-author-pane').hasClass("closed-pane")) {
-//                    $('.oiu-author-pane').removeClass("closed-pane");
-                }
                 $('.metadata-pane').addClass("open-pane");
-//                $('.oiu-author-pane').addClass("open-pane");
+                if ($('.oiu-author-pane').hasClass("closed-pane")) {
+                    $('.oiu-author-pane').removeClass("closed-pane");
+                }
+                $('.oiu-author-pane').addClass("open-pane");
             }
         });
         $('.metadata-pane').removeClass("open-pane").addClass("closed-pane"); 

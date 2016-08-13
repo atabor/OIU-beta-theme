@@ -50,7 +50,7 @@
                 if ($('.oiu-author-pane').hasClass("closed-pane")) {
                     $('.oiu-author-pane').removeClass("closed-pane");
                 }
-                $('.oiu-author-pane').addClass("open-pane");
+                    $('.oiu-author-pane').addClass("open-pane");
             }
         });
         $('.metadata-pane').removeClass("open-pane").addClass("closed-pane"); 

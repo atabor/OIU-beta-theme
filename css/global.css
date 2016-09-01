@@ -903,6 +903,21 @@ grey        - #f2f2f2
 links       - #0062A0 - 0,98,160 :: reduced #3381b3
 */
 
+/* 2016-0829 related stories dim and brighten */
+
+
+.related-story {
+    opacity: 1;
+//    transition: opacity 4s ease-in;    
+}
+.related-story.unfresh {
+    opacity: .1;
+    transition: opacity 8s ease-in;
+}
+.related-story.unfresh:hover {
+    opacity: 1;
+    transition: opacity 0s;
+}
 /****************************/
 /****************************/
 /* Full Site ****************/
@@ -1502,7 +1517,7 @@ input[type="submit"].custom-search-form.form-submit {
 .metadata-pane.closed-pane {
     opacity: 0;
     max-height: 0;
-    transition: max-height 5s, opacity 4s ease-in;
+    transition: max-height 9s, opacity 8s ease-in;
 }
 .metadata-pane.open-pane {
     opacity: 1;
@@ -1516,7 +1531,7 @@ input[type="submit"].custom-search-form.form-submit {
     opacity: 0;
     max-height: 0;
     max-width: 0;
-    transition: opacity 4s, max-height 4s;
+    transition: opacity 8s, max-height 8s;
 }
 .oiu-author-pane.closed-pane .author-icon {
     // firefox image doesn't go to zero in the previous

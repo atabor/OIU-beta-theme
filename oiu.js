@@ -11,12 +11,14 @@
 
         /* **** right  panel                      ***/
 
-        /* manage metadata panel */
+        /* manage metadata panel and related stories */
         
         $('.metadata-pane').addClass("open-pane"); 
 //        $('.metadata-pane').removeClass("closed-pane").addClass("open-pane");
         $('.oiu-author-pane').addClass("open-pane");
 //        $('.oiu-author-pane').toggle();
+//        $('.related-story').addClass("fresh");
+        
         $('div.metadata-button-wrapper').addClass("closed");
         $('.metadata-button').click(function () {
 //            $('.metadata-pane').toggle(); 
@@ -55,6 +57,8 @@
         });
         $('.metadata-pane').removeClass("open-pane").addClass("closed-pane"); 
         $('.oiu-author-pane').removeClass("open-pane").addClass("closed-pane"); 
+//        $('.related-story').removeClass("fresh").addClass("unfresh");
+        $('.related-story').addClass("unfresh");        
         
         /* manage subscriptions panel */
         // $('.follow-pane').show ();

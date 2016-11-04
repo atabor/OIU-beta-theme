@@ -1159,12 +1159,29 @@ h4.explore {
 /****************************/
 
 /* added 2016-0813 */
+/* updated 2016-1103 */
+
+.image-width-50pct {
+    width: 50%;
+}
 .image-width-60pct {
     width: 60%;
 }
 .image-width-100pct {
     width: 100%;
 }
+.responsive-layout-mobile .image-width-50pct {
+    width: 100%;
+}
+.responsive-layout-mobile .image-width-60pct {
+    width: 100%;
+}
+/* this one is injected ck-editor */
+.responsive-layout-mobile img .media-element .file-default {
+    width: 100%;
+}
+/**/
+
 .content-table th,td {
     border: 1px solid darkgrey;
 }

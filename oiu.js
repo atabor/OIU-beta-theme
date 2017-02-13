@@ -132,7 +132,31 @@
         $('.beer-button').click(function () {
         	$('.beer-form').toggle(); 
         });        
+
+        /* **** single page specials            ***/
         
+        /* Public Lands Resource Page */
+        $('.os-content').hide ();
+        
+        $('.utah-revolt .os-header').click(function () {
+            $('.utah-revolt .os-content').toggle(); 
+        });
+        $('.oia-policy .os-header').click(function () {
+            $('.oia-policy .os-content').toggle(); 
+        });
+        $('.organizations .os-header').click(function () {
+            $('.organizations .os-content').toggle(); 
+        });
+        $('.history .os-header').click(function () {
+            $('.history .os-content').toggle(); 
+        });
+        $('.coverage-pac-std .os-header').click(function () {
+            $('.coverage-pac-std .os-content').toggle(); 
+        });
+        $('.coverage-other .os-header').click(function () {
+            $('.coverage-other .os-content').toggle(); 
+        });
+                      
         /* collision between author-pane module and my author-pane 
          if ($('body').hasClass("node-type-forum")) {
             $('.author-pane').show();

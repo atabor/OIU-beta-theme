@@ -208,3 +208,14 @@ iframe.float-right {
 	color: grey;
 	}	
 
+/***************************************************************/
+/*******************************/
+/* story sequence page */
+/*******************************/
+
+/***** relative widths are overridden at normal width */
+
+/*.story-sequence-panes td {
+    vertical-align: top;
+    width: 23%;
+}*/

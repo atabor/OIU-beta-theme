@@ -793,6 +793,10 @@ h3.follow-button {
     padding:6px 15px;
 }
 */
+.sequence-name {
+    font-size: 115%;
+    text-decoration: underline;
+}
 .story-sequence-pane {
     margin-bottom: 10px;
 }
@@ -960,5 +964,15 @@ h3.bear-story-button {
 }
 #edit-author--4 label {
     display: none;
+}
+
+/***** Story Sequence Page *****/
+
+.story-sequence-panes td {
+    vertical-align: top;
+    width: 30%;
+}
+.story-sequence-author .author-name {
+    font-size: 135%;
 }
 

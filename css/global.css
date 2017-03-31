@@ -27,7 +27,7 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 //    transition: opacity 4s ease-in;    
 }
 .related-story.unfresh {
-    opacity: .1;
+    opacity: .4;
     transition: opacity 8s ease-in;
 }
 .related-story.unfresh:hover {

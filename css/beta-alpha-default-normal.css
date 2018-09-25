@@ -34,8 +34,6 @@
 
 /* main menu */
 ul.nice-menu-main-menu {
-//  2015-0128 set for this width specifically    
-//  float: right; <-when in menu region
     padding-bottom: 0px;
     position: absolute;
     margin-left: 0px;
@@ -179,15 +177,11 @@ iframe.float-right {
 /*******************************/
 
 .person-top-bar .video-main {
-	width: 540px;
-	height: 277px;
-	float: left;
-	padding-right: 7px;
-	}
-	
-.person-top-right-panel h3 {
-	color: grey;
-	}	
+    width: 540px;
+    height: 277px;
+    float: left;
+    padding-right: 7px;
+}
 
 /***************************************************************/
 /*******************************/

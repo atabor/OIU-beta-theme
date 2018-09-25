@@ -24,7 +24,6 @@ links       - #0062A0 - 0,98,160 :: reduced #3381b3
 /* try reloading the .4 didn't take */
 .related-story {
     opacity: 1;
-//    transition: opacity 4s ease-in;    
 }
 .related-story.unfresh {
     opacity: .4;
@@ -976,3 +975,90 @@ h3.bear-story-button {
     font-size: 135%;
 }
 
+/****************************/
+/* Organization    **********/
+/****************************/
+
+.organization-page h2 {
+    font-size: 120%;
+    opacity: .85;
+    margin-bottom:0px;
+    margin-top: 20px;
+}
+.org-icon img {
+    width:33%;
+    height:33%;
+    float: left;
+    margin-right: 5px;
+}
+.org-key-links {
+    margin-top: 2px;
+}
+.org-key-stories h2.block-title {
+    font-size: 120%;
+    opacity: .85;
+    color: black;
+    text-decoration: none;
+    font-weight:600;
+}
+.org-story-short-list-item {
+    width:220px;
+    height: 250px;
+    padding:5px;
+    float:left;
+}
+.org-all-stories {
+    clear: both;
+}
+@media only screen and (max-width: 720px) {
+    .organization-page .panel-col-first, .organization-page .panel-col-last {
+        width:95%;
+    }
+    .org-key-stories {
+        display:none;
+    }
+}
+@media only screen and (min-width: 721px) {
+    .pane-organization-key-stories-panel-pane-1 {
+        display:none;
+    }
+}
+
+
+/****************************/
+/* Person    ****************/
+/****************************/
+
+.person-page h3 {
+    color: grey;
+    font-size:140%;
+}
+.person-page h2 {
+    margin-bottom: 0px;
+    font-size:175%;
+}
+@media only screen and (max-width: 720px) {
+    .person-top-right-panel, .person-top-left-panel {
+        width:95%;
+    }
+}
+
+/****************************/
+/* Catalogs  ****************/
+/****************************/
+
+.document-name {
+    width:45%;
+}
+.document-season {
+    width:10%;
+}
+.document-pdfs {
+    width:45%
+}
+.catalog-table caption {
+    font-size: 150%;
+    text-align: left;
+    padding-left: 9px;
+    font-weight: bold;
+}
